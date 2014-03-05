@@ -1,0 +1,284 @@
+html {
+  height: 100%;
+  min-width: 960px;
+}
+
+body {
+  padding: 0;
+  text-align: center;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+
+  // 查
+}
+
+.wrapper {
+	height: 100% !important;
+  /*查*/
+	height: 100%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1, h2 {
+  width: 100%;
+  float: left;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-size: 70px;
+  font-weight: 100;
+}
+h1 span {
+  font-size: 26px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  display: inline-block;
+  color: #6D461D;
+  border-radius: 5px 5px;
+  -webkit-border-radius: 5px 5px;
+  -moz-border-radius: 5px 5px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  padding: 3px 10px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Didot', sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+    section {
+    overflow: hidden;
+      &.hero {
+        background-color: rgba(16, 16, 16, 1);
+        background-image: url(../images/taipei101.jpg);
+        .page_container {
+          position: relative;
+          top: 25%;
+          margin: 0 auto;
+          max-width: 960px;
+          z-index: 3;
+        }
+        h1 {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 15px;
+          font-size: 80px;
+        }
+        h2 {
+          text-align: center;
+          font-size: 35px;
+          width: 100%;
+
+        }
+      }
+      &.service {
+        background-image: url(../images/service_pattern.png);
+        .page_container {
+          margin: 0 auto;
+          max-width: 960px;
+          overflow: hidden;
+          .app, .dev, .web{
+            float: left;
+            height: 320px;
+            width: 300px;
+            margin: 0 10px;
+            background-color: red;
+            h3, ul li{
+              font-family: 'lato', sans-serif;
+              font-weight: 300;
+              font-style: 28px;
+            }
+            h3{
+              font-weight: 400;
+
+            }
+            ul li{
+              text-align: left;
+              list-style-type:none;
+            }
+          }
+        }
+        h1 {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 15px;
+          font-size: 50px;
+          color: rgba(0,0,0,1);
+        }
+        h2 {
+          color: rgba(0,0,0,1);
+          margin: 40px auto 80px;
+          text-align: center;
+          line-height: 160%;
+          font-weight: 100;
+        }
+      }
+      &.project {
+        background-color: rgba(17, 17, 17, 1);
+        .page_container {
+          overflow: hidden;
+          max-width: 960px;
+          margin: 0 auto;
+
+          .work{
+            height:256px;
+            width: 300px;
+            margin: 10px;
+            background-color: red;
+            float: left;
+          }
+        }
+        h1 {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 0;
+          font-size: 42px;
+          // letter-spacing: -1px;
+          color: white;
+        }
+        h2 {
+          color: white;
+          text-align: center;
+          line-height: 140%;
+          letter-spacing: 1.4;
+          font-weight: 100;
+          font-size: 24px;
+        }
+      }
+      &.team {
+        .page_container {
+          overflow: hidden;
+          max-width: 960px;
+          margin: 0 auto;
+          .fontecher{
+            width: 300px;
+            height: 256px;
+            margin: 10px;
+            float: left;
+            background-color: red;
+          }
+        }
+        h1 {
+          text-align: center;
+          padding: 0;
+          margin-bottom: 0;
+          font-size: 42px;
+          color: black;
+        }
+        h2 {
+          color: rgba(0,0,0,1);
+          text-align: center;
+          line-height: 160%;
+          font-weight: 100;
+          font-size: 24px;
+        }
+      }
+      &.contact {
+        .page_container {
+          overflow: hidden;
+          .contact_input{
+            background-color: red;
+            float: left;
+            width: 300px;
+            margin: 0 auto 0 90px;
+          }
+          .contact_info{
+            background-color: red;
+            float: left;
+            width: 300px;
+            margin: 0 auto 0 140px;
+            h3{
+              font-size: 24px;
+              text-align: left;
+              font-family: 'lato', sans-serif;
+              font-weight: 300;
+            }
+          }
+        }
+        h1 {
+          text-align: left;
+          padding: 0;
+          margin-bottom: 0;
+          font-size: 70px;
+          letter-spacing: -1px;
+          color: black;
+          font-family: 'lato', sans-serif;
+        }
+        h2 {
+          text-align: left;
+          line-height: 160%;
+          font-weight: 100;
+          font-size: 24px;
+          font-family: 'Didot', sans-serif;
+        }
+        h4{
+          font-size: 16px;
+          text-align: center;
+          font-family: 'lato', sans-serif;
+          font-weight: 300;
+        }
+      }
+  }
+}
+
+        // background-image: url(../images/grid.png);
+// If open the page on mobile device, disable page scroll.
+body.disabled-onepage-scroll .onepage-wrapper  section {
+  min-height: 100%;
+  height: auto;
+}
+
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+  padding: 20px;
+  margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body.disabled-onepage-scroll  section .page_container h1{
+  text-align: center;
+  font-size: 50px;
+}
+body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+  text-align: center;
+  width: 100%;
+}
+
+body.disabled-onepage-scroll .main section.hero > img {
+  position: absolute;
+  width: 80%;
+  left: 10%;
+}
+
+body.disabled-onepage-scroll .main section > img {
+  position: relative;
+  max-width: 80%;
+  bottom: 0;
+}
+
+
+body.disabled-onepage-scroll .main section.page3 .page_container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
