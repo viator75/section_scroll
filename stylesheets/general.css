@@ -18,39 +18,45 @@ body {
   margin: 0 auto;
   overflow: hidden; }
 
+.title {
+  width: 780px;
+  margin: 0 auto; }
+
 a {
   text-decoration: none; }
 
-h1, h2 {
-  width: 100%;
-  float: left; }
-
 h1 {
-  font-family: 'Lato', sans-serif;
-  color: #ffffff;
-  margin-bottom: 5px;
-  font-size: 70px;
-  font-weight: 100; }
-
-h1 span {
-  font-size: 26px;
-  margin: 0 5px;
-  text-transform: capitalize;
-  display: inline-block;
-  color: #6D461D;
-  border-radius: 5px 5px;
-  -webkit-border-radius: 5px 5px;
-  -moz-border-radius: 5px 5px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
-  padding: 3px 10px; }
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  bottom: 0; }
 
 h2 {
-  color: white;
   font-family: 'Didot', sans-serif;
-  font-style: italic;
+  margin: 0;
+  bottom: 0; }
+
+.service h1, .project h1, .team h1, .contact h1 {
+  width: 180px;
+  margin-top: 24px;
+  padding: 0;
+  color: black;
+  float: left;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center; }
+.service h2, .project h2, .team h2, .contact h2 {
+  font-size: 30px;
+  color: white;
+  margin: 90px auto 30px;
+  text-align: center;
+  line-height: 120%;
   font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 10px; }
+  font-style: italic;
+  clear: both; }
+.service .page_container, .project .page_container, .team .page_container, .contact .page_container {
+  margin: 0.5% auto;
+  max-width: 960px;
+  overflow: hidden; }
 
 .main {
   float: left;
@@ -63,135 +69,157 @@ h2 {
       background-image: url(../images/taipei101.jpg); }
       .main section.hero .page_container {
         position: relative;
-        top: 25%;
+        top: 35%;
         margin: 0 auto;
-        max-width: 960px;
-        z-index: 3; }
+        max-width: 960px; }
       .main section.hero h1 {
-        text-align: center;
-        padding: 0;
-        margin-bottom: 15px;
-        font-size: 80px; }
-      .main section.hero h2 {
-        text-align: center;
-        font-size: 35px;
-        width: 100%; }
-    .main section.service {
-      background-image: url(../images/service_pattern.png); }
-      .main section.service .page_container {
-        margin: 0 auto;
-        max-width: 960px;
-        overflow: hidden; }
-        .main section.service .page_container .app, .main section.service .page_container .dev, .main section.service .page_container .web {
-          float: left;
-          height: 320px;
-          width: 300px;
-          margin: 0 10px;
-          background-color: red; }
-          .main section.service .page_container .app h3, .main section.service .page_container .app ul li, .main section.service .page_container .dev h3, .main section.service .page_container .dev ul li, .main section.service .page_container .web h3, .main section.service .page_container .web ul li {
-            font-family: 'lato', sans-serif;
-            font-weight: 300;
-            font-style: 28px; }
-          .main section.service .page_container .app h3, .main section.service .page_container .dev h3, .main section.service .page_container .web h3 {
-            font-weight: 400; }
-          .main section.service .page_container .app ul li, .main section.service .page_container .dev ul li, .main section.service .page_container .web ul li {
-            text-align: left;
-            list-style-type: none; }
-      .main section.service h1 {
-        text-align: center;
-        padding: 0;
-        margin-bottom: 15px;
-        font-size: 50px;
-        color: black; }
-      .main section.service h2 {
-        color: black;
-        margin: 40px auto 80px;
-        text-align: center;
-        line-height: 160%;
-        font-weight: 100; }
-    .main section.project {
-      background-color: #111111; }
-      .main section.project .page_container {
-        overflow: hidden;
-        max-width: 960px;
-        margin: 0 auto; }
-        .main section.project .page_container .work {
-          height: 256px;
-          width: 300px;
-          margin: 10px;
-          background-color: red;
-          float: left; }
-      .main section.project h1 {
-        text-align: center;
-        padding: 0;
-        margin-bottom: 0;
-        font-size: 42px;
-        color: white; }
-      .main section.project h2 {
         color: white;
         text-align: center;
-        line-height: 140%;
-        letter-spacing: 1.4;
-        font-weight: 100;
-        font-size: 24px; }
-    .main section.team .page_container {
-      overflow: hidden;
-      max-width: 960px;
-      margin: 0 auto; }
+        padding: 0;
+        font-size: 80px;
+        font-weight: 100; }
+      .main section.hero h2 {
+        color: white;
+        text-align: center;
+        font-size: 38px;
+        width: 100%;
+        font-weight: 100; }
+    .main section.service {
+      background-image: url(../images/service_pattern.png); }
+      .main section.service .page_container .title .line_black {
+        width: 300px;
+        height: 5px;
+        margin: 42px 0 0 0;
+        background-image: url(../images/line_black.png);
+        float: left; }
+      .main section.service .page_container h2 {
+        color: black; }
+      .main section.service .page_container .solution {
+        float: left;
+        height: 400px;
+        width: 300px;
+        margin: 0 10px; }
+        .main section.service .page_container .solution .app {
+          background-image: url(../images/ios.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 160px;
+          width: 300px; }
+        .main section.service .page_container .solution .dev {
+          background-image: url(../images/dev.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 160px;
+          width: 300px; }
+        .main section.service .page_container .solution .web {
+          background-image: url(../images/web.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 160px;
+          width: 300px; }
+        .main section.service .page_container .solution h3 {
+          font-family: 'lato', sans-serif;
+          font-size: 32px;
+          font-weight: 300; }
+        .main section.service .page_container .solution ul li {
+          font-family: 'lato', sans-serif;
+          font-weight: 300;
+          font-style: 30px;
+          line-height: 1.8; }
+        .main section.service .page_container .solution ul li {
+          text-align: left;
+          list-style-type: none;
+          margin-left: 10px;
+          font-size: 18px; }
+    .main section.project {
+      background-color: #111111; }
+      .main section.project .page_container .title .line_white {
+        width: 300px;
+        height: 5px;
+        margin: 42px 0 0 0;
+        background-image: url(../images/line_white.png);
+        float: left; }
+      .main section.project .page_container h1 {
+        color: white; }
+      .main section.project .page_container .work {
+        height: 256px;
+        width: 300px;
+        margin: 10px;
+        background-color: red;
+        float: left; }
+    .main section.team {
+      background-image: url(../images/service_pattern.png); }
+      .main section.team .page_container h2 {
+        color: black; }
+      .main section.team .page_container .title .line_black {
+        width: 300px;
+        height: 5px;
+        margin: 42px 0 0 0;
+        background-image: url(../images/line_black.png);
+        float: left; }
       .main section.team .page_container .fontecher {
         width: 300px;
         height: 256px;
         margin: 10px;
-        float: left;
-        background-color: red; }
-    .main section.team h1 {
-      text-align: center;
-      padding: 0;
-      margin-bottom: 0;
-      font-size: 42px;
-      color: black; }
-    .main section.team h2 {
-      color: black;
-      text-align: center;
-      line-height: 160%;
-      font-weight: 100;
-      font-size: 24px; }
-    .main section.contact .page_container {
-      overflow: hidden; }
-      .main section.contact .page_container .contact_input {
-        background-color: red;
-        float: left;
-        width: 300px;
-        margin: 0 auto 0 90px; }
-      .main section.contact .page_container .contact_info {
-        background-color: red;
-        float: left;
-        width: 300px;
-        margin: 0 auto 0 140px; }
-        .main section.contact .page_container .contact_info h3 {
-          font-size: 24px;
-          text-align: left;
+        float: left; }
+        .main section.team .page_container .fontecher h3 {
           font-family: 'lato', sans-serif;
-          font-weight: 300; }
-    .main section.contact h1 {
-      text-align: left;
-      padding: 0;
-      margin-bottom: 0;
-      font-size: 70px;
-      letter-spacing: -1px;
-      color: black;
-      font-family: 'lato', sans-serif; }
+          margin: 10px auto;
+          bottom: 0;
+          padding: 0;
+          color: black;
+          font-weight: 300;
+          font-size: 24px;
+          text-align: center; }
+        .main section.team .page_container .fontecher h4 {
+          font-family: 'lato', sans-serif;
+          margin: 0;
+          bottom: 0;
+          padding: 0;
+          color: black;
+          font-weight: 300;
+          font-size: 18px;
+          text-align: center; }
+    .main section.contact .page_container .title .line_black {
+      width: 300px;
+      height: 5px;
+      margin: 42px 0 0 0;
+      background-image: url(../images/line_black.png);
+      float: left; }
+    .main section.contact .page_container .contact_input {
+      background-color: red;
+      float: left;
+      width: 300px;
+      height: 320px;
+      margin: 0 auto 0 90px; }
+    .main section.contact .page_container .contact_info {
+      background-color: red;
+      float: right;
+      width: 300px;
+      height: 320px;
+      margin: 0 90px; }
+      .main section.contact .page_container .contact_info h3 {
+        text-align: left; }
     .main section.contact h2 {
-      text-align: left;
-      line-height: 160%;
-      font-weight: 100;
+      color: black; }
+    .main section.contact h3 {
       font-size: 24px;
-      font-family: 'Didot', sans-serif; }
+      text-align: center;
+      width: 100%;
+      margin: 0 auto 40px;
+      font-family: 'lato', sans-serif;
+      font-weight: 300;
+      clear: both; }
     .main section.contact h4 {
       font-size: 16px;
+      padding: 16px;
+      margin: 0;
       text-align: center;
+      width: 100%;
       font-family: 'lato', sans-serif;
-      font-weight: 300; }
+      font-weight: 300;
+      position: absolute;
+      bottom: 0; }
 
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;

@@ -17,18 +17,23 @@ body, .onepage-wrapper, html {
  .back {
   position: absolute;
   top: 0;
-  background: rgba(255, 255, 255, 0.25);
-  font-weight: bold;
-  font-size: 13px;
   transition: all 500ms ease-in-out;
 }
 
 .viewing-page-1 .back{
-  top: 100px;
+  top: 600px;
+  right:30px;
+  height: 80px;
+  width: 224px;
+  background-image: url(../images/fontech_logo.png);
 }
 
 .viewing-page-2 .back{
   top: 200px;
+  right:30px;
+  height: 80px;
+  width: 224px;
+  background-image: url(../images/ios.png);
 }
 
 .onepage-wrapper {
@@ -47,7 +52,7 @@ body, .onepage-wrapper, html {
 
 .onepage-pagination {
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 40%;
   z-index: 5;
   list-style: none;

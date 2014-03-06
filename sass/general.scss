@@ -22,42 +22,50 @@ body {
 	overflow: hidden;
 }
 
+.title{
+  width:780px;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
-
-
-h1, h2 {
-  width: 100%;
-  float: left;
+h1{
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  bottom: 0;
 }
-h1 {
-  font-family: 'Lato', sans-serif;
-  color: #ffffff;
-  margin-bottom: 5px;
-  font-size: 70px;
-  font-weight: 100;
-}
-h1 span {
-  font-size: 26px;
-  margin: 0 5px;
-  text-transform: capitalize;
-  display: inline-block;
-  color: #6D461D;
-  border-radius: 5px 5px;
-  -webkit-border-radius: 5px 5px;
-  -moz-border-radius: 5px 5px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
-  padding: 3px 10px;
-}
-
-h2 {
-  color: white;
+h2{
   font-family: 'Didot', sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
+  bottom: 0;
+}
+.service, .project, .team, .contact{
+  h1{
+    width: 180px;
+    margin-top: 24px;
+    padding: 0;
+    color: rgba(0,0,0,1);
+    float: left;
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+  }
+  h2{
+    font-size: 30px;
+    color: white;
+    margin: 90px auto 30px;
+    text-align: center;
+    line-height: 120%;
+    font-weight: 100;
+    font-style: italic;
+    clear: both;
+  }
+    .page_container {
+    margin: 0.5% auto;
+    max-width: 960px;
+    overflow: hidden;
+  }
 }
 
 .main {
@@ -71,73 +79,101 @@ h2 {
         background-image: url(../images/taipei101.jpg);
         .page_container {
           position: relative;
-          top: 25%;
+          top: 35%;
           margin: 0 auto;
           max-width: 960px;
-          z-index: 3;
         }
         h1 {
+          color: white;
           text-align: center;
           padding: 0;
-          margin-bottom: 15px;
           font-size: 80px;
+          font-weight: 100;
         }
         h2 {
+          color: white;
           text-align: center;
-          font-size: 35px;
+          font-size: 38px;
           width: 100%;
-
+          font-weight: 100;
         }
       }
       &.service {
         background-image: url(../images/service_pattern.png);
         .page_container {
-          margin: 0 auto;
-          max-width: 960px;
-          overflow: hidden;
-          .app, .dev, .web{
+          .title{
+            .line_black{
+              width:300px;
+              height: 5px;
+              margin: 42px 0 0 0;
+              background-image: url(../images/line_black.png);
+              float: left;
+            }
+          }
+          h2{
+            color: black;
+          }
+          .solution{
             float: left;
-            height: 320px;
+            height: 400px;
             width: 300px;
             margin: 0 10px;
-            background-color: red;
-            h3, ul li{
-              font-family: 'lato', sans-serif;
-              font-weight: 300;
-              font-style: 28px;
+            .app{
+              background-image: url(../images/ios.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 160px;
+              width: 300px;
+            }
+            .dev{
+              background-image: url(../images/dev.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 160px;
+              width: 300px;
+            }
+            .web{
+              background-image: url(../images/web.png);
+              background-repeat: no-repeat;
+              background-position: center;
+              height: 160px;
+              width: 300px;
             }
             h3{
-              font-weight: 400;
-
+              font-family: 'lato', sans-serif;
+              font-size: 32px;
+              font-weight: 300;
+            }
+            ul li{
+              font-family: 'lato', sans-serif;
+              font-weight: 300;
+              font-style: 30px;
+              line-height: 1.8;
             }
             ul li{
               text-align: left;
               list-style-type:none;
+              margin-left: 10px;
+              font-size: 18px;
             }
           }
-        }
-        h1 {
-          text-align: center;
-          padding: 0;
-          margin-bottom: 15px;
-          font-size: 50px;
-          color: rgba(0,0,0,1);
-        }
-        h2 {
-          color: rgba(0,0,0,1);
-          margin: 40px auto 80px;
-          text-align: center;
-          line-height: 160%;
-          font-weight: 100;
         }
       }
       &.project {
         background-color: rgba(17, 17, 17, 1);
         .page_container {
-          overflow: hidden;
-          max-width: 960px;
-          margin: 0 auto;
-
+          .title{
+            .line_white{
+              width:300px;
+              height: 5px;
+              margin: 42px 0 0 0;
+              background-image: url(../images/line_white.png);
+              float: left;
+            }
+          }
+          h1{
+            color: white;
+          }
           .work{
             height:256px;
             width: 300px;
@@ -146,97 +182,105 @@ h2 {
             float: left;
           }
         }
-        h1 {
-          text-align: center;
-          padding: 0;
-          margin-bottom: 0;
-          font-size: 42px;
-          // letter-spacing: -1px;
-          color: white;
-        }
-        h2 {
-          color: white;
-          text-align: center;
-          line-height: 140%;
-          letter-spacing: 1.4;
-          font-weight: 100;
-          font-size: 24px;
-        }
       }
       &.team {
+        background-image: url(../images/service_pattern.png);
         .page_container {
-          overflow: hidden;
-          max-width: 960px;
-          margin: 0 auto;
+          h2{
+            color: black;
+          }
+          .title{
+            .line_black{
+              width:300px;
+              height: 5px;
+              margin: 42px 0 0 0;
+              background-image: url(../images/line_black.png);
+              float: left;
+            }
+          }
           .fontecher{
             width: 300px;
             height: 256px;
             margin: 10px;
             float: left;
-            background-color: red;
+            h3{
+                font-family: 'lato', sans-serif;
+                margin: 10px auto;
+                bottom: 0;
+                padding: 0;
+                color: rgba(0,0,0,1);
+                font-weight: 300;
+                font-size: 24px;
+                text-align: center;
+            }
+            h4{
+                font-family: 'lato', sans-serif;
+                margin: 0;
+                bottom: 0;
+                padding: 0;
+                color: rgba(0,0,0,1);
+                font-weight: 300;
+                font-size: 18px;
+                text-align: center;
+            }
           }
-        }
-        h1 {
-          text-align: center;
-          padding: 0;
-          margin-bottom: 0;
-          font-size: 42px;
-          color: black;
-        }
-        h2 {
-          color: rgba(0,0,0,1);
-          text-align: center;
-          line-height: 160%;
-          font-weight: 100;
-          font-size: 24px;
         }
       }
       &.contact {
         .page_container {
-          overflow: hidden;
+          .title{
+            .line_black{
+              width:300px;
+              height: 5px;
+              margin: 42px 0 0 0;
+              background-image: url(../images/line_black.png);
+              float: left;
+            }
+          }
           .contact_input{
             background-color: red;
             float: left;
             width: 300px;
+            height: 320px;
             margin: 0 auto 0 90px;
           }
           .contact_info{
             background-color: red;
-            float: left;
+            float: right;
             width: 300px;
-            margin: 0 auto 0 140px;
+            height: 320px;
+            margin: 0 90px;
             h3{
-              font-size: 24px;
               text-align: left;
-              font-family: 'lato', sans-serif;
-              font-weight: 300;
             }
           }
         }
-        h1 {
-          text-align: left;
-          padding: 0;
-          margin-bottom: 0;
-          font-size: 70px;
-          letter-spacing: -1px;
+        h2{
           color: black;
-          font-family: 'lato', sans-serif;
         }
-        h2 {
-          text-align: left;
-          line-height: 160%;
-          font-weight: 100;
+        h3{
           font-size: 24px;
-          font-family: 'Didot', sans-serif;
+          text-align: center;
+          width: 100%;
+          margin: 0 auto 40px;
+          font-family: 'lato', sans-serif;
+          font-weight: 300;
+          clear: both;
         }
         h4{
           font-size: 16px;
+          padding: 16px;
+          margin: 0;
           text-align: center;
+          width: 100%;
           font-family: 'lato', sans-serif;
           font-weight: 300;
+          position: absolute;
+          bottom: 0;
+          // background-color: red;
         }
       }
-  }
+    }
 }
 
         // background-image: url(../images/grid.png);
