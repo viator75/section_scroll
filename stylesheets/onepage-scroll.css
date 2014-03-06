@@ -25,7 +25,9 @@ body, .onepage-wrapper, html {
   right:30px;
   height: 80px;
   width: 224px;
-  background-image: url(../images/fontech_logo.png);
+  background-image: url(../images/fontech_logo_dark.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .viewing-page-2 .back{
@@ -33,7 +35,9 @@ body, .onepage-wrapper, html {
   right:30px;
   height: 80px;
   width: 224px;
-  background-image: url(../images/ios.png);
+  background-image: url(../images/fontech_logo_dark.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .onepage-wrapper {
@@ -75,7 +79,7 @@ body, .onepage-wrapper, html {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: rgba(0,0,0,0.85);
+  background: rgba(255,209,11,0.85);
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -85,7 +89,7 @@ body, .onepage-wrapper, html {
   width: 10px;
   height: 10px;
   background: none;
-  border: 1px solid black;
+  border: 1px solid rgba(255,209,11,0.85);
   margin-top: -4px;
   left: 8px;
 }

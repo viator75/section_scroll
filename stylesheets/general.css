@@ -66,18 +66,21 @@ h2 {
     overflow: hidden; }
     .main section.hero {
       background-color: #101010;
-      background-image: url(../images/taipei101.jpg); }
+      background-image: url(../images/12.jpg);
+      background-size: cover;
+      background-position: center; }
       .main section.hero .page_container {
         position: relative;
         top: 35%;
         margin: 0 auto;
         max-width: 960px; }
       .main section.hero h1 {
-        color: white;
+        color: black;
         text-align: center;
         padding: 0;
         font-size: 80px;
-        font-weight: 100; }
+        font-weight: 300;
+        background-color: rgba(255, 201, 11, 0.7); }
       .main section.hero h2 {
         color: white;
         text-align: center;
