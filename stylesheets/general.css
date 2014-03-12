@@ -1,40 +1,55 @@
-@charset "UTF-8";
+/* line 1, ../sass/general.scss */
 html {
   height: 100%;
-  min-width: 960px; }
+  min-width: 960px;
+}
 
+/* line 6, ../sass/general.scss */
 body {
   padding: 0;
   text-align: center;
   position: relative;
   margin: 0;
   height: 100%;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
+/* line 17, ../sass/general.scss */
 .wrapper {
   height: 100% !important;
   /*查*/
   height: 100%;
   margin: 0 auto;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+}
 
+/* line 26, ../sass/general.scss */
 .title {
   width: 780px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
+/* line 31, ../sass/general.scss */
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 34, ../sass/general.scss */
 h1 {
   font-family: 'lato', sans-serif;
   margin: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
+/* line 39, ../sass/general.scss */
 h2 {
   font-family: 'Didot', sans-serif;
   margin: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
+/* line 45, ../sass/general.scss */
 .service h1, .project h1, .team h1, .contact h1 {
   width: 180px;
   margin-top: 24px;
@@ -43,7 +58,9 @@ h2 {
   float: left;
   font-weight: 300;
   font-size: 28px;
-  text-align: center; }
+  text-align: center;
+}
+/* line 55, ../sass/general.scss */
 .service h2, .project h2, .team h2, .contact h2 {
   font-size: 30px;
   color: white;
@@ -52,209 +69,461 @@ h2 {
   line-height: 120%;
   font-weight: 100;
   font-style: italic;
-  clear: both; }
+  clear: both;
+}
+/* line 65, ../sass/general.scss */
 .service .page_container, .project .page_container, .team .page_container, .contact .page_container {
   margin: 0.5% auto;
   max-width: 960px;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+/* line 72, ../sass/general.scss */
 .main {
   float: left;
   width: 100%;
-  margin: 0 auto; }
-  .main section {
-    overflow: hidden; }
-    .main section.hero {
-      background-color: #101010;
-      background-image: url(../images/12.jpg);
-      background-size: cover;
-      background-position: center; }
-      .main section.hero .page_container {
-        position: relative;
-        top: 35%;
-        margin: 0 auto;
-        max-width: 960px; }
-      .main section.hero h1 {
-        color: black;
-        text-align: center;
-        padding: 0;
-        font-size: 80px;
-        font-weight: 300;
-        background-color: rgba(255, 201, 11, 0.7); }
-      .main section.hero h2 {
-        color: white;
-        text-align: center;
-        font-size: 38px;
-        width: 100%;
-        font-weight: 100; }
-    .main section.service {
-      background-image: url(../images/service_pattern.png); }
-      .main section.service .page_container .title .line_black {
-        width: 300px;
-        height: 5px;
-        margin: 42px 0 0 0;
-        background-image: url(../images/line_black.png);
-        float: left; }
-      .main section.service .page_container h2 {
-        color: black; }
-      .main section.service .page_container .solution {
-        float: left;
-        height: 400px;
-        width: 300px;
-        margin: 0 10px; }
-        .main section.service .page_container .solution .app {
-          background-image: url(../images/ios.png);
-          background-repeat: no-repeat;
-          background-position: center;
-          height: 160px;
-          width: 300px; }
-        .main section.service .page_container .solution .dev {
-          background-image: url(../images/dev.png);
-          background-repeat: no-repeat;
-          background-position: center;
-          height: 160px;
-          width: 300px; }
-        .main section.service .page_container .solution .web {
-          background-image: url(../images/web.png);
-          background-repeat: no-repeat;
-          background-position: center;
-          height: 160px;
-          width: 300px; }
-        .main section.service .page_container .solution h3 {
-          font-family: 'lato', sans-serif;
-          font-size: 32px;
-          font-weight: 300; }
-        .main section.service .page_container .solution ul li {
-          font-family: 'lato', sans-serif;
-          font-weight: 300;
-          font-style: 30px;
-          line-height: 1.8; }
-        .main section.service .page_container .solution ul li {
-          text-align: left;
-          list-style-type: none;
-          margin-left: 10px;
-          font-size: 18px; }
-    .main section.project {
-      background-color: #111111; }
-      .main section.project .page_container .title .line_white {
-        width: 300px;
-        height: 5px;
-        margin: 42px 0 0 0;
-        background-image: url(../images/line_white.png);
-        float: left; }
-      .main section.project .page_container h1 {
-        color: white; }
-      .main section.project .page_container .work {
-        height: 256px;
-        width: 300px;
-        margin: 10px;
-        background-color: red;
-        float: left; }
-    .main section.team {
-      background-image: url(../images/service_pattern.png); }
-      .main section.team .page_container h2 {
-        color: black; }
-      .main section.team .page_container .title .line_black {
-        width: 300px;
-        height: 5px;
-        margin: 42px 0 0 0;
-        background-image: url(../images/line_black.png);
-        float: left; }
-      .main section.team .page_container .fontecher {
-        width: 300px;
-        height: 256px;
-        margin: 10px;
-        float: left; }
-        .main section.team .page_container .fontecher h3 {
-          font-family: 'lato', sans-serif;
-          margin: 10px auto;
-          bottom: 0;
-          padding: 0;
-          color: black;
-          font-weight: 300;
-          font-size: 24px;
-          text-align: center; }
-        .main section.team .page_container .fontecher h4 {
-          font-family: 'lato', sans-serif;
-          margin: 0;
-          bottom: 0;
-          padding: 0;
-          color: black;
-          font-weight: 300;
-          font-size: 18px;
-          text-align: center; }
-    .main section.contact .page_container .title .line_black {
-      width: 300px;
-      height: 5px;
-      margin: 42px 0 0 0;
-      background-image: url(../images/line_black.png);
-      float: left; }
-    .main section.contact .page_container .contact_input {
-      background-color: red;
-      float: left;
-      width: 300px;
-      height: 320px;
-      margin: 0 auto 0 90px; }
-    .main section.contact .page_container .contact_info {
-      background-color: red;
-      float: right;
-      width: 300px;
-      height: 320px;
-      margin: 0 90px; }
-      .main section.contact .page_container .contact_info h3 {
-        text-align: left; }
-    .main section.contact h2 {
-      color: black; }
-    .main section.contact h3 {
-      font-size: 24px;
-      text-align: center;
-      width: 100%;
-      margin: 0 auto 40px;
-      font-family: 'lato', sans-serif;
-      font-weight: 300;
-      clear: both; }
-    .main section.contact h4 {
-      font-size: 16px;
-      padding: 16px;
-      margin: 0;
-      text-align: center;
-      width: 100%;
-      font-family: 'lato', sans-serif;
-      font-weight: 300;
-      position: absolute;
-      bottom: 0; }
+  margin: 0 auto;
+  position: relative;
+}
 
+/* line 78, ../sass/general.scss */
+section {
+  overflow: hidden;
+}
+
+/* line 82, ../sass/general.scss */
+.hero {
+  background-color: #fafafa;
+}
+/* line 84, ../sass/general.scss */
+.hero .connect {
+  width: 100%;
+  height: 90%;
+  background-image: url(../images/09.jpg);
+  background-color: #fafafa;
+  background-size: cover;
+}
+/* line 92, ../sass/general.scss */
+.hero .page_container {
+  position: relative;
+  top: 35%;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: auto;
+  min-width: 960px;
+}
+/* line 100, ../sass/general.scss */
+.hero h1 {
+  color: white;
+  display: block;
+  width: 700px;
+  height: 84px;
+  margin: 0 auto;
+  font-size: 72px;
+  font-weight: 300;
+  background-color: rgba(255, 201, 11, 0.8);
+  position: relative;
+}
+/* line 110, ../sass/general.scss */
+.hero h1:before {
+  height: 84px;
+  background-color: rgba(255, 201, 11, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 9999px;
+}
+/* line 120, ../sass/general.scss */
+.hero h2 {
+  color: white;
+  display: block;
+  margin: 20px auto;
+  width: 820px;
+  height: 48px;
+  padding: 2px;
+  font-size: 38px;
+  font-weight: 300;
+  background-color: rgba(11, 21, 11, 0.8);
+  position: relative;
+}
+/* line 131, ../sass/general.scss */
+.hero h2:after {
+  height: 52px;
+  background-color: rgba(11, 21, 11, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 9999px;
+}
+
+/* line 142, ../sass/general.scss */
+.service {
+  background-color: #fafafa;
+}
+/* line 146, ../sass/general.scss */
+.service .page_container .title .line_black {
+  width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  background-image: url(../images/line_black.png);
+  float: left;
+}
+/* line 154, ../sass/general.scss */
+.service .page_container h2 {
+  color: black;
+}
+/* line 157, ../sass/general.scss */
+.service .page_container .solution {
+  float: left;
+  height: 400px;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+/* line 163, ../sass/general.scss */
+.service .page_container .solution:hover {
+  background-color: rgba(255, 201, 11, 0.6);
+  -webkit-transition: all .45s ease;
+  -moz-transition: all .45s ease;
+  -ms-transition: all .45s ease;
+  -o-transition: all .45s ease;
+  transition: all .45s ease;
+}
+/* line 171, ../sass/general.scss */
+.service .page_container .solution .app {
+  background-image: url(../images/mobile.png);
+  background-repeat: no-repeat;
+  background-position: 0px center;
+  height: 160px;
+  width: 80px;
+  margin: 0 auto;
+}
+/* line 178, ../sass/general.scss */
+.service .page_container .solution .app:hover {
+  background-position: center;
+  width: 300px;
+  -webkit-transition: all .95s ease;
+  -moz-transition: all .95s ease;
+  -ms-transition: all .95s ease;
+  -o-transition: all .95s ease;
+  transition: all .95s ease;
+}
+/* line 188, ../sass/general.scss */
+.service .page_container .solution .dev {
+  background-image: url(../images/dev.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160px;
+  width: 300px;
+}
+/* line 194, ../sass/general.scss */
+.service .page_container .solution .dev:hover {
+  background-image: url(../images/dev_light.png);
+}
+/* line 198, ../sass/general.scss */
+.service .page_container .solution .web {
+  background-image: url(../images/web.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 160px;
+  width: 300px;
+}
+/* line 205, ../sass/general.scss */
+.service .page_container .solution .web:hover {
+  background-image: url(../images/responsive.png);
+  background-position: bottom;
+  background-size: contain;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+/* line 217, ../sass/general.scss */
+.service .page_container .solution h3 {
+  font-family: 'lato', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+/* line 222, ../sass/general.scss */
+.service .page_container .solution ul li {
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: left;
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+/* line 234, ../sass/general.scss */
+.project {
+  background-color: #111111;
+}
+/* line 236, ../sass/general.scss */
+.project h1 {
+  color: white;
+}
+/* line 241, ../sass/general.scss */
+.project .page_container .title .line_white {
+  width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  background-image: url(../images/line_white.png);
+  float: left;
+}
+/* line 249, ../sass/general.scss */
+.project .page_container .work {
+  height: 220px;
+  width: 300px;
+  margin: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+/* line 256, ../sass/general.scss */
+.project .page_container .work img {
+  height: 220px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+/* line 264, ../sass/general.scss */
+.project .page_container .work .info {
+  height: 220px;
+  width: 300px;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+/* line 272, ../sass/general.scss */
+.project .page_container .work .info:hover {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.9);
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease;
+}
+
+/* line 288, ../sass/general.scss */
+.team {
+  background-image: url(../images/service_pattern.png);
+}
+/* line 291, ../sass/general.scss */
+.team .page_container h2 {
+  color: black;
+}
+/* line 294, ../sass/general.scss */
+.team .page_container h3 {
+  font-family: 'lato', sans-serif;
+  margin: 10px auto;
+  bottom: 0;
+  padding: 0;
+  color: black;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+}
+/* line 304, ../sass/general.scss */
+.team .page_container h4 {
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  bottom: 0;
+  padding: 0;
+  color: black;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
+/* line 315, ../sass/general.scss */
+.team .page_container .title .line_black {
+  width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  background-image: url(../images/line_black.png);
+  float: left;
+}
+/* line 323, ../sass/general.scss */
+.team .page_container .fontecher {
+  width: 300px;
+  height: 256px;
+  margin: 10px;
+  float: left;
+}
+/* line 328, ../sass/general.scss */
+.team .page_container .fontecher .hello {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url(../images/team.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* line 338, ../sass/general.scss */
+.team .page_container .fontecher .hello #gmail {
+  display: none;
+  position: absolute;
+  bottom: -13px;
+  left: -11px;
+}
+/* line 344, ../sass/general.scss */
+.team .page_container .fontecher .hello #linkedin {
+  display: none;
+  position: absolute;
+  bottom: -13px;
+  right: -11px;
+}
+/* line 350, ../sass/general.scss */
+.team .page_container .fontecher .hello #dribble {
+  display: none;
+  position: absolute;
+  top: -13px;
+  right: -12px;
+}
+/* line 356, ../sass/general.scss */
+.team .page_container .fontecher .hello #github {
+  display: none;
+  position: absolute;
+  top: -13px;
+  left: -12px;
+}
+/* line 363, ../sass/general.scss */
+.team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
+  display: block;
+}
+
+/* line 376, ../sass/general.scss */
+.contact .page_container .title .line_black {
+  width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  background-image: url(../images/line_black.png);
+  float: left;
+}
+/* line 384, ../sass/general.scss */
+.contact .page_container .contact_input {
+  width: 786px;
+  height: 380px;
+  margin: 0 auto 0 90px;
+}
+/* line 390, ../sass/general.scss */
+.contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
+  padding: 8px;
+  margin: 0 0 20px 0;
+  float: left;
+  font-size: 24px;
+  font-family: 'lato', sans-serif;
+  font-weight: 100;
+}
+/* line 398, ../sass/general.scss */
+.contact .page_container .contact_input a {
+  font-size: 24px;
+  margin: 30px auto 20px auto;
+  padding: 8px 40px 8px 40px;
+  font-family: 'lato', sans-serif;
+  background-color: #ffd10b;
+  font-weight: 300;
+  color: black;
+  border: none;
+  clear: both;
+}
+/* line 410, ../sass/general.scss */
+.contact .page_container .contact_info {
+  float: right;
+  width: 300px;
+  height: 320px;
+  margin: 0 90px;
+}
+/* line 415, ../sass/general.scss */
+.contact .page_container .contact_info h3 {
+  text-align: left;
+}
+/* line 420, ../sass/general.scss */
+.contact h2 {
+  color: black;
+}
+/* line 423, ../sass/general.scss */
+.contact h3 {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 40px;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  clear: both;
+}
+/* line 432, ../sass/general.scss */
+.contact h4 {
+  font-size: 16px;
+  padding: 16px;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-family: 'lato', sans-serif;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+}
+
+/* line 449, ../sass/general.scss */
 body.disabled-onepage-scroll .onepage-wrapper section {
   min-height: 100%;
-  height: auto; }
+  height: auto;
+}
 
+/* line 454, ../sass/general.scss */
 body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
   padding: 20px;
   margin-top: 150px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
+/* line 462, ../sass/general.scss */
 body.disabled-onepage-scroll section .page_container h1 {
   text-align: center;
-  font-size: 50px; }
+  font-size: 50px;
+}
 
+/* line 466, ../sass/general.scss */
 body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 471, ../sass/general.scss */
 body.disabled-onepage-scroll .main section.hero > img {
   position: absolute;
   width: 80%;
-  left: 10%; }
+  left: 10%;
+}
 
+/* line 477, ../sass/general.scss */
 body.disabled-onepage-scroll .main section > img {
   position: relative;
   max-width: 80%;
-  bottom: 0; }
+  bottom: 0;
+}
 
+/* line 484, ../sass/general.scss */
 body.disabled-onepage-scroll .main section.page3 .page_container {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  right: 0; }
+  right: 0;
+}
