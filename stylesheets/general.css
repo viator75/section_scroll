@@ -56,7 +56,7 @@ h1, h2 {
 }
 
 /* line 50, ../sass/general.scss */
-h1, h3, h4, a, input, textarea {
+h1, h3, h4, ul, li, a, input, textarea {
   font-family: 'lato', sans-serif;
 }
 
@@ -334,15 +334,17 @@ section {
   font-weight: 300;
   font-size: 18px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
-/* line 298, ../sass/general.scss */
+/* line 300, ../sass/general.scss */
 .team .page_container .fontecher {
   width: 300px;
   height: 256px;
   margin: 10px;
   float: left;
 }
-/* line 303, ../sass/general.scss */
+/* line 305, ../sass/general.scss */
 .team .page_container .fontecher .hello {
   height: 120px;
   width: 120px;
@@ -354,46 +356,46 @@ section {
   background-size: cover;
   position: relative;
 }
-/* line 313, ../sass/general.scss */
+/* line 315, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail {
   display: none;
   position: absolute;
   bottom: -13px;
   left: -11px;
 }
-/* line 319, ../sass/general.scss */
+/* line 321, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin {
   display: none;
   position: absolute;
   bottom: -13px;
   right: -11px;
 }
-/* line 325, ../sass/general.scss */
+/* line 327, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble {
   display: none;
   position: absolute;
   top: -13px;
   right: -12px;
 }
-/* line 331, ../sass/general.scss */
+/* line 333, ../sass/general.scss */
 .team .page_container .fontecher .hello #github {
   display: none;
   position: absolute;
   top: -13px;
   left: -12px;
 }
-/* line 338, ../sass/general.scss */
+/* line 340, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
   display: block;
 }
 
-/* line 348, ../sass/general.scss */
+/* line 350, ../sass/general.scss */
 .contact .page_container .contact_input {
   width: 786px;
   height: 380px;
   margin: 0 auto 0 90px;
 }
-/* line 354, ../sass/general.scss */
+/* line 356, ../sass/general.scss */
 .contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
   padding: 8px;
   margin: 0 0 20px 0;
@@ -401,7 +403,7 @@ section {
   font-size: 24px;
   font-weight: 100;
 }
-/* line 361, ../sass/general.scss */
+/* line 363, ../sass/general.scss */
 .contact .page_container .contact_input a {
   font-size: 24px;
   padding: 6px 16px;
@@ -415,11 +417,11 @@ section {
   border: none;
   clear: both;
 }
-/* line 376, ../sass/general.scss */
+/* line 378, ../sass/general.scss */
 .contact h2 {
   color: black;
 }
-/* line 379, ../sass/general.scss */
+/* line 381, ../sass/general.scss */
 .contact h3 {
   font-size: 24px;
   text-align: center;
@@ -428,7 +430,7 @@ section {
   font-weight: 300;
   clear: both;
 }
-/* line 387, ../sass/general.scss */
+/* line 389, ../sass/general.scss */
 .contact h4 {
   font-size: 16px;
   padding: 16px 0;

@@ -1,6 +1,7 @@
 .disabled-onepage-scroll{
   section {
     overflow: visible;
+    height: auto;
   }
   .title {
     width: 90%;
@@ -116,7 +117,7 @@
         height: 180px;
         width: 100%;
         max-width: 420px;
-        margin: 0 auto 20px auto;
+        margin: 40px auto 20px auto;
         padding: 10px ;
         &:hover{
           background-color: rgba(255, 201, 11, 0.6);
@@ -197,55 +198,19 @@
   }
   .contact{
     clear: both;
-    background-color: rgba(225,225,220,0.3);
+    background-color: rgba(225,225,220,0.5);
   }
   .contact {
+      height: 720px;
     .page_container {
       .contact_input{
         display: none;
-        a{
-          font-size: 24px;
-          display: block;
-          width: 72px;
-          text-align: center;
-          margin: 30px auto 20px auto;
-          background-color: #ffd10b;
-          font-weight: 300;
-          color: black;
-          border: none;
-          clear: both;
-        }
       }
     }
-    h2{
-      color: black;
-    }
-    h3{
-      font-size: 24px;
-      text-align: center;
-      width: 100%;
-      margin: 0 auto 40px;
-      font-weight: 300;
-      clear: both;
-    }
   }
-}
-
-
-
-html {
-  height: 100%;
-  // min-width: 960px;
-}
-
-body {
-  padding: 0;
-  position: relative;
-  margin: 0;
-  height: 100%;
-  -webkit-font-smoothing: antialiased;
-
-  // 查
+  .back{
+    display: none;
+  }
 }
 
 .wrapper {
@@ -287,9 +252,6 @@ h2{
 
 
 
-// .disabled-onepage-scroll .project{
-//   display: none;
-// }
 
         // background-image: url(../images/grid.png);
 // If open the page on mobile device, disable page scroll.
@@ -298,13 +260,13 @@ h2{
 //   // height: auto;
 // }
 
-// body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
-//   // padding: 10px;
-//   // margin-top: 150px;
-//   -webkit-box-sizing: border-box;
-//   -moz-box-sizing: border-box;
-//   box-sizing: border-box;
-// }
+body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+  // padding: 10px;
+  // margin-top: 150px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 // body.disabled-onepage-scroll  section .page_container h1{
 //   text-align: center;

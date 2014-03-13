@@ -47,7 +47,7 @@ h1, h2{
   bottom: 0;
   display: block;
 }
-h1, h3, h4, a, input, textarea{
+h1, h3, h4, ul, li, a, input, textarea{
   font-family: 'lato', sans-serif;
 }
 h2{
@@ -294,6 +294,8 @@ section {
           font-weight: 300;
           font-size: 18px;
           text-align: center;
+          margin: 0;
+          padding: 0;
       }
       .fontecher{
         width: 300px;
