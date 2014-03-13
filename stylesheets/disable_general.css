@@ -1,0 +1,307 @@
+/* line 2, ../sass/disable_general.scss */
+.disabled-onepage-scroll section {
+  overflow: visible;
+}
+/* line 5, ../sass/disable_general.scss */
+.disabled-onepage-scroll .title {
+  width: 90%;
+  padding: 0;
+  height: 60px;
+  margin: 0 5%;
+}
+/* line 10, ../sass/disable_general.scss */
+.disabled-onepage-scroll .title .line {
+  width: 35%;
+  max-width: 300px;
+  height: 5px;
+  margin: 42px 0 0 0;
+  float: left;
+}
+/* line 17, ../sass/disable_general.scss */
+.disabled-onepage-scroll .title .black {
+  background-image: url(../images/line_black.png);
+}
+/* line 20, ../sass/disable_general.scss */
+.disabled-onepage-scroll .title .white {
+  background-image: url(../images/line_white.png);
+}
+/* line 25, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service h1, .disabled-onepage-scroll .project h1, .disabled-onepage-scroll .team h1, .disabled-onepage-scroll .contact h1 {
+  width: 30%;
+  margin-top: 24px;
+  padding: 0;
+  float: left;
+  font-weight: 300;
+  font-size: 28px;
+  text-align: center;
+}
+/* line 34, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service h2, .disabled-onepage-scroll .project h2, .disabled-onepage-scroll .team h2, .disabled-onepage-scroll .contact h2 {
+  font-size: 30px;
+  margin: 20px auto 30px;
+  text-align: center;
+  line-height: 120%;
+  font-weight: 100;
+  font-style: italic;
+}
+/* line 42, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container, .disabled-onepage-scroll .project .page_container, .disabled-onepage-scroll .team .page_container, .disabled-onepage-scroll .contact .page_container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+/* line 47, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero {
+  padding-top: 0;
+  height: auto;
+}
+/* line 50, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero .connect {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 420px;
+  background-image: url(../images/robot.png);
+  background-color: #191919;
+  background-size: cover;
+}
+/* line 59, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero .page_container {
+  padding-top: 30%;
+  width: 100%;
+}
+/* line 63, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero h1 {
+  color: white;
+  display: block;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  font-size: 3em;
+  font-weight: 300;
+  background-color: rgba(255, 201, 11, 0.8);
+  position: relative;
+}
+/* line 74, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero h1:before {
+  height: 64px;
+  background-color: rgba(255, 201, 11, 0.8);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 9999px;
+}
+/* line 84, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero h2 {
+  color: white;
+  display: block;
+  margin: 20px auto;
+  width: auto;
+  height: auto;
+  padding: 2px;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  background-color: rgba(11, 21, 11, 0.8);
+  position: relative;
+}
+/* line 96, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero h2:after {
+  display: none;
+}
+/* line 101, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service {
+  background-color: #fafafa;
+}
+/* line 104, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container h3 {
+  float: left;
+  height: auto;
+  padding: 0 0 0 22px;
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+}
+/* line 114, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution {
+  float: none;
+  height: 180px;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+}
+/* line 121, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution:hover {
+  background-color: rgba(255, 201, 11, 0.6);
+  -webkit-transition: all .45s ease;
+  -moz-transition: all .45s ease;
+  -ms-transition: all .45s ease;
+  -o-transition: all .45s ease;
+  transition: all .45s ease;
+}
+/* line 129, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .app {
+  background-image: url(../images/mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
+  width: 140px;
+  margin: 0 auto;
+  float: left;
+}
+/* line 138, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .app:hover {
+  background-position: center;
+  -webkit-transition: all .95s ease;
+  -moz-transition: all .95s ease;
+  -ms-transition: all .95s ease;
+  -o-transition: all .95s ease;
+  transition: all .95s ease;
+}
+/* line 147, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .dev {
+  background-image: url(../images/dev.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
+  width: 140px;
+  float: left;
+}
+/* line 155, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .dev:hover {
+  background-image: url(../images/dev_light.png);
+}
+/* line 159, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .web {
+  background-image: url(../images/web.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 160px;
+  width: 140px;
+  float: left;
+}
+/* line 167, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution .web:hover {
+  background-image: url(../images/responsive.png);
+  background-position: bottom;
+  background-size: contain;
+  -webkit-transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -ms-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+/* line 178, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution ul li {
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: left;
+  list-style-type: none;
+  font-size: 18px;
+}
+/* line 185, ../sass/disable_general.scss */
+.disabled-onepage-scroll .service .page_container .solution ul {
+  float: left;
+  padding-left: 12px;
+}
+/* line 192, ../sass/disable_general.scss */
+.disabled-onepage-scroll .team {
+  display: none;
+}
+/* line 195, ../sass/disable_general.scss */
+.disabled-onepage-scroll .project {
+  display: none;
+}
+/* line 198, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact {
+  clear: both;
+  background-color: rgba(225, 225, 220, 0.3);
+}
+/* line 204, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact .page_container .contact_input {
+  display: none;
+}
+/* line 206, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact .page_container .contact_input a {
+  font-size: 24px;
+  display: block;
+  width: 72px;
+  text-align: center;
+  margin: 30px auto 20px auto;
+  background-color: #ffd10b;
+  font-weight: 300;
+  color: black;
+  border: none;
+  clear: both;
+}
+/* line 220, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact h2 {
+  color: black;
+}
+/* line 223, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact h3 {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 40px;
+  font-weight: 300;
+  clear: both;
+}
+
+/* line 236, ../sass/disable_general.scss */
+html {
+  height: 100%;
+}
+
+/* line 241, ../sass/disable_general.scss */
+body {
+  padding: 0;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 251, ../sass/disable_general.scss */
+.wrapper {
+  height: 100% !important;
+  /*查*/
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 261, ../sass/disable_general.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 265, ../sass/disable_general.scss */
+h1, h2 {
+  margin: 0;
+  bottom: 0;
+  display: block;
+}
+
+/* line 270, ../sass/disable_general.scss */
+h1, h3, h4, a, input, textarea {
+  font-family: 'lato', sans-serif;
+}
+
+/* line 273, ../sass/disable_general.scss */
+h2 {
+  font-family: 'Didot', sans-serif;
+}
+
+/* line 279, ../sass/disable_general.scss */
+.main {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
