@@ -31,10 +31,10 @@ body {
     float: left;
   }
     .black {
-    background-image: url(../images/line_black.png);
+    background-image: url(../images/public/line_black.png);
   }
     .white {
-      background-image: url(../images/line_white.png);
+      background-image: url(../images/public/line_white.png);
     }
 }
 
@@ -92,12 +92,10 @@ section {
 
 .hero {
       background-color: rgba(250, 250, 250, 1);
-      // background-color: rgba(250, 25, 25, 1);
     .connect{
       width: 102%;
       height: 90%;
-      background-image: url(../images/robot.png);
-      // background-image: url(../images/09.jpg);
+      background-image: url(../images/hero/robot.png);
       background-color: rgba(250, 250, 250, 1);
       background-size: cover;
     }
@@ -162,8 +160,9 @@ section {
       }
       .solution{
         float: left;
-        height: 400px;
-        width: 300px;
+        height: 420px;
+        width: 30%;
+        max-width: 300px;
         margin: 0 10px;
         padding: 10px 0;
         &:hover{
@@ -175,7 +174,7 @@ section {
                   transition: all .45s ease;
         }
         .app{
-          background-image: url(../images/mobile.png);
+          background-image: url(../images/service/mobile.png);
           background-repeat: no-repeat;
           background-position: 0px center;
           height: 160px;
@@ -192,23 +191,23 @@ section {
           }
         }
         .dev{
-          background-image: url(../images/dev.png);
+          background-image: url(../images/service/dev.png);
           background-repeat: no-repeat;
           background-position: center;
           height: 160px;
-          width: 300px;
+          width: 100%;
           &:hover{
-            background-image: url(../images/dev_light.png);
+            background-image: url(../images/service/dev_light.png);
           }
         }
         .web{
-          background-image: url(../images/web.png);
+          background-image: url(../images/service/web.png);
           background-repeat: no-repeat;
           background-position:  center ;
           height: 160px;
-          width: 300px;
+          width: 100%;
           &:hover{
-          background-image: url(../images/responsive.png);
+          background-image: url(../images/service/responsive.png);
           background-position: bottom;
           background-size: contain;
           -webkit-transition: all .25s ease-in-out;
@@ -241,14 +240,15 @@ section {
     .page_container {
       .work{
         height:220px;
-        width: 300px;
+        width: 30%;
+        max-width: 300px;
         margin: 10px;
         float: left;
         overflow: hidden;
         position: relative;
         img{
           height: 220px;
-          width: 300px;
+          width: 100%;
           position: absolute;
           z-index: 1;
           bottom: 0;
@@ -279,7 +279,7 @@ section {
     }
   }
 .team {
-    background-image: url(../images/service_pattern.png);
+    background-image: url(../images/public/pattern.png);
     .page_container {
       h1, h2, h3, h4{
         color: black;
@@ -298,47 +298,74 @@ section {
           padding: 0;
       }
       .fontecher{
-        width: 300px;
+        width: 30%;
+        max-width: 300px;
         height: 256px;
         margin: 10px;
         float: left;
         .hello{
-          height: 120px;
-          width: 120px;
+          height: 100px;
+          width: 100px;
           margin: 0 auto;
           padding: 20px;
-          background-image: url(../images/team.png);
+          background-image: url(../images/team/team.png);
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
           position: relative;
+          &:hover{
+            background-image: url(../images/team/team2.jpg);
+
+          }
           #gmail{
+            background-image: url(../images/team/gmail.png);
             display: none;
             position: absolute;
-            bottom:-13px;
-            left:-11px;
+            bottom: -3px;
+            left:-4px;
+            &:hover{
+              background-image: url(../images/team/gmail_go.png);
+
+            }
           }
           #linkedin{
+            background-image: url(../images/team/linkedin.png);
             display: none;
             position: absolute;
-            bottom:-13px;
-            right:-11px;
+            bottom:-3px;
+            right:-3px;
+            &:hover{
+              background-image: url(../images/team/linkedin_go.png);
+
+            }
           }
           #dribble{
+            background-image: url(../images/team/dribble.png);
             display: none;
             position: absolute;
-            top:-13px;
-            right:-12px;
+            top:-3px;
+            right:-3px;
+            &:hover{
+              background-image: url(../images/team/dribble_go.png);
+
+            }
           }
           #github{
+            background-image: url(../images/team/github.png);
             display: none;
             position: absolute;
-            top:-13px;
-            left:-12px;
+            top:-4px;
+            left:-4px;
+            &:hover{
+              background-image: url(../images/team/github_go.png);
+
+            }
           }
           &:hover{
             > #gmail, #linkedin, #github, #dribble{
               display: block;
+              height: 75px;
+              width: 75px;
             }
           }
         }
@@ -348,9 +375,8 @@ section {
 .contact {
     .page_container {
       .contact_input{
-        // background-color: red;
-        // float: left;
-        width: 786px;
+        width: 84%;
+        max-width: 786px;
         height: 380px;
         margin: 0 auto 0 90px;
         input, textarea{

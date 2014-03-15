@@ -16,59 +16,56 @@ body, .onepage-wrapper, html {
 
  .back {
   position: absolute;
-  /*top: 0;*/
-  transition: all 500ms ease-in-out;
+  top: 0;
+  transition: all 900ms ease-in-out;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .viewing-page-1 .back{
-  bottom: 0;
-  right: 0;
-  height: 80px;
-  width: 224px;
-  background-image: url(../images/fontech_logo_dark.png);
-  background-size: cover;
-  background-position: center;
+  top: 94%;
+  right: 45%;
+  height: 40px;
+  width: 40px;
+  background-image: url(../images/hero/scroll.png);
+  opacity: 0.3;
+
 }
 
 .viewing-page-2 .back{
-  bottom: 0;
-  right:20px;
-  height: 80px;
-  width: 224px;
-  background-image: url(../images/fontech_logo_dark.png);
-  background-size: cover;
-  background-position: center;
+  top: 94%;
+  right: 0px;
+  height: 40px;
+  width: 50px;
+  background-image: url(../images/public/fontech_logo_f_03.png);
 }
 
 .viewing-page-3 .back{
-  bottom: 0;
-  right:30px;
-  height: 80px;
-  width: 224px;
-  background-image: url(../images/fontech_logo_dark.png);
-  background-size: cover;
-  background-position: center;
+  top: 94%;
+  right: 0px;
+  height: 40px;
+  width: 50px;
+  background-image: url(../images/public/fontech_logo_h_01.png);
 }
 
 .viewing-page-4 .back{
-  bottom: 0;
-  right:30px;
-  height: 80px;
-  width: 224px;
-  background-image: url(../images/fontech_logo_dark.png);
-  background-size: cover;
-  background-position: center;
+  top: 93%;
+  right: 0px;
+  height: 40px;
+  width: 50px;
+  background-image: url(../images/public/fontech_logo_h_02.png);
 }
 
 .viewing-page-5 .back{
-  bottom: 0;
-  right: 40%;
-  height: 80px;
-  width: 224px;
-  background-image: url(../images/fontech_logo_dark.png);
-  background-size: cover;
-  background-position: center;
+  top: 3%;
+  right: 0px;
+  height: 40px;
+  width: 50px;
+  background-image: url(../images/public/fontech_logo_f_02.png);
 }
+
+
 .onepage-wrapper {
   width: 100%;
   height: 100%;

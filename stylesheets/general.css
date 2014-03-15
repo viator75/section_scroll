@@ -36,11 +36,11 @@ body {
 }
 /* line 33, ../sass/general.scss */
 .title .black {
-  background-image: url(../images/line_black.png);
+  background-image: url(../images/public/line_black.png);
 }
 /* line 36, ../sass/general.scss */
 .title .white {
-  background-image: url(../images/line_white.png);
+  background-image: url(../images/public/line_white.png);
 }
 
 /* line 41, ../sass/general.scss */
@@ -107,20 +107,20 @@ section {
 .hero {
   background-color: #fafafa;
 }
-/* line 96, ../sass/general.scss */
+/* line 95, ../sass/general.scss */
 .hero .connect {
   width: 102%;
   height: 90%;
-  background-image: url(../images/robot.png);
+  background-image: url(../images/hero/robot.png);
   background-color: #fafafa;
   background-size: cover;
 }
-/* line 104, ../sass/general.scss */
+/* line 102, ../sass/general.scss */
 .hero .page_container {
   padding-top: 30%;
   width: auto;
 }
-/* line 108, ../sass/general.scss */
+/* line 106, ../sass/general.scss */
 .hero h1 {
   color: white;
   display: block;
@@ -132,7 +132,7 @@ section {
   background-color: rgba(255, 201, 11, 0.8);
   position: relative;
 }
-/* line 118, ../sass/general.scss */
+/* line 116, ../sass/general.scss */
 .hero h1:before {
   height: 84px;
   background-color: rgba(255, 201, 11, 0.8);
@@ -142,7 +142,7 @@ section {
   right: 100%;
   width: 9999px;
 }
-/* line 128, ../sass/general.scss */
+/* line 126, ../sass/general.scss */
 .hero h2 {
   color: white;
   display: block;
@@ -155,7 +155,7 @@ section {
   background-color: rgba(11, 21, 11, 0.8);
   position: relative;
 }
-/* line 139, ../sass/general.scss */
+/* line 137, ../sass/general.scss */
 .hero h2:after {
   height: 52px;
   background-color: rgba(11, 21, 11, 0.8);
@@ -166,31 +166,32 @@ section {
   width: 9999px;
 }
 
-/* line 150, ../sass/general.scss */
+/* line 148, ../sass/general.scss */
 .service {
   background-color: #fafafa;
 }
-/* line 153, ../sass/general.scss */
+/* line 151, ../sass/general.scss */
 .service .page_container h2 {
   color: black;
   width: 100%;
   max-width: 680px;
 }
-/* line 158, ../sass/general.scss */
+/* line 156, ../sass/general.scss */
 .service .page_container h3 {
   text-align: center;
   font-size: 32px;
   font-weight: 300;
 }
-/* line 163, ../sass/general.scss */
+/* line 161, ../sass/general.scss */
 .service .page_container .solution {
   float: left;
-  height: 400px;
-  width: 300px;
+  height: 420px;
+  width: 30%;
+  max-width: 300px;
   margin: 0 10px;
   padding: 10px 0;
 }
-/* line 169, ../sass/general.scss */
+/* line 168, ../sass/general.scss */
 .service .page_container .solution:hover {
   background-color: rgba(255, 201, 11, 0.6);
   -webkit-transition: all .45s ease;
@@ -199,16 +200,16 @@ section {
   -o-transition: all .45s ease;
   transition: all .45s ease;
 }
-/* line 177, ../sass/general.scss */
+/* line 176, ../sass/general.scss */
 .service .page_container .solution .app {
-  background-image: url(../images/mobile.png);
+  background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
   background-position: 0px center;
   height: 160px;
   width: 80px;
   margin: 0 auto;
 }
-/* line 184, ../sass/general.scss */
+/* line 183, ../sass/general.scss */
 .service .page_container .solution .app:hover {
   background-position: center;
   width: 300px;
@@ -218,29 +219,29 @@ section {
   -o-transition: all .95s ease;
   transition: all .95s ease;
 }
-/* line 194, ../sass/general.scss */
+/* line 193, ../sass/general.scss */
 .service .page_container .solution .dev {
-  background-image: url(../images/dev.png);
+  background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 160px;
-  width: 300px;
+  width: 100%;
 }
-/* line 200, ../sass/general.scss */
+/* line 199, ../sass/general.scss */
 .service .page_container .solution .dev:hover {
-  background-image: url(../images/dev_light.png);
+  background-image: url(../images/service/dev_light.png);
 }
-/* line 204, ../sass/general.scss */
+/* line 203, ../sass/general.scss */
 .service .page_container .solution .web {
-  background-image: url(../images/web.png);
+  background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 160px;
-  width: 300px;
+  width: 100%;
 }
-/* line 210, ../sass/general.scss */
+/* line 209, ../sass/general.scss */
 .service .page_container .solution .web:hover {
-  background-image: url(../images/responsive.png);
+  background-image: url(../images/service/responsive.png);
   background-position: bottom;
   background-size: contain;
   -webkit-transition: all .25s ease-in-out;
@@ -249,7 +250,7 @@ section {
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
-/* line 221, ../sass/general.scss */
+/* line 220, ../sass/general.scss */
 .service .page_container .solution ul li {
   font-weight: 300;
   line-height: 1.8;
@@ -259,23 +260,24 @@ section {
   font-size: 18px;
 }
 
-/* line 232, ../sass/general.scss */
+/* line 231, ../sass/general.scss */
 .project {
   background-color: #111111;
 }
-/* line 234, ../sass/general.scss */
+/* line 233, ../sass/general.scss */
 .project h1, .project h2 {
   color: white;
 }
-/* line 237, ../sass/general.scss */
+/* line 236, ../sass/general.scss */
 .project h2 {
   width: 100%;
   max-width: 580px;
 }
-/* line 242, ../sass/general.scss */
+/* line 241, ../sass/general.scss */
 .project .page_container .work {
   height: 220px;
-  width: 300px;
+  width: 30%;
+  max-width: 300px;
   margin: 10px;
   float: left;
   overflow: hidden;
@@ -284,7 +286,7 @@ section {
 /* line 249, ../sass/general.scss */
 .project .page_container .work img {
   height: 220px;
-  width: 300px;
+  width: 100%;
   position: absolute;
   z-index: 1;
   bottom: 0;
@@ -316,7 +318,7 @@ section {
 
 /* line 281, ../sass/general.scss */
 .team {
-  background-image: url(../images/service_pattern.png);
+  background-image: url(../images/public/pattern.png);
 }
 /* line 284, ../sass/general.scss */
 .team .page_container h1, .team .page_container h2, .team .page_container h3, .team .page_container h4 {
@@ -339,63 +341,91 @@ section {
 }
 /* line 300, ../sass/general.scss */
 .team .page_container .fontecher {
-  width: 300px;
+  width: 30%;
+  max-width: 300px;
   height: 256px;
   margin: 10px;
   float: left;
 }
-/* line 305, ../sass/general.scss */
+/* line 306, ../sass/general.scss */
 .team .page_container .fontecher .hello {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url(../images/team.png);
+  background-image: url(../images/team/team.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
 }
-/* line 315, ../sass/general.scss */
+/* line 316, ../sass/general.scss */
+.team .page_container .fontecher .hello:hover {
+  background-image: url(../images/team/team2.jpg);
+}
+/* line 320, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail {
+  background-image: url(../images/team/gmail.png);
   display: none;
   position: absolute;
-  bottom: -13px;
-  left: -11px;
+  bottom: -3px;
+  left: -4px;
 }
-/* line 321, ../sass/general.scss */
+/* line 326, ../sass/general.scss */
+.team .page_container .fontecher .hello #gmail:hover {
+  background-image: url(../images/team/gmail_go.png);
+}
+/* line 331, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin {
+  background-image: url(../images/team/linkedin.png);
   display: none;
   position: absolute;
-  bottom: -13px;
-  right: -11px;
+  bottom: -3px;
+  right: -3px;
 }
-/* line 327, ../sass/general.scss */
+/* line 337, ../sass/general.scss */
+.team .page_container .fontecher .hello #linkedin:hover {
+  background-image: url(../images/team/linkedin_go.png);
+}
+/* line 342, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble {
+  background-image: url(../images/team/dribble.png);
   display: none;
   position: absolute;
-  top: -13px;
-  right: -12px;
+  top: -3px;
+  right: -3px;
 }
-/* line 333, ../sass/general.scss */
+/* line 348, ../sass/general.scss */
+.team .page_container .fontecher .hello #dribble:hover {
+  background-image: url(../images/team/dribble_go.png);
+}
+/* line 353, ../sass/general.scss */
 .team .page_container .fontecher .hello #github {
+  background-image: url(../images/team/github.png);
   display: none;
   position: absolute;
-  top: -13px;
-  left: -12px;
+  top: -4px;
+  left: -4px;
 }
-/* line 340, ../sass/general.scss */
+/* line 359, ../sass/general.scss */
+.team .page_container .fontecher .hello #github:hover {
+  background-image: url(../images/team/github_go.png);
+}
+/* line 365, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
   display: block;
+  height: 75px;
+  width: 75px;
 }
 
-/* line 350, ../sass/general.scss */
+/* line 377, ../sass/general.scss */
 .contact .page_container .contact_input {
-  width: 786px;
+  width: 84%;
+  max-width: 786px;
   height: 380px;
   margin: 0 auto 0 90px;
 }
-/* line 356, ../sass/general.scss */
+/* line 382, ../sass/general.scss */
 .contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
   padding: 8px;
   margin: 0 0 20px 0;
@@ -403,7 +433,7 @@ section {
   font-size: 24px;
   font-weight: 100;
 }
-/* line 363, ../sass/general.scss */
+/* line 389, ../sass/general.scss */
 .contact .page_container .contact_input a {
   font-size: 24px;
   padding: 6px 16px;
@@ -417,11 +447,11 @@ section {
   border: none;
   clear: both;
 }
-/* line 378, ../sass/general.scss */
+/* line 404, ../sass/general.scss */
 .contact h2 {
   color: black;
 }
-/* line 381, ../sass/general.scss */
+/* line 407, ../sass/general.scss */
 .contact h3 {
   font-size: 24px;
   text-align: center;
@@ -430,7 +460,7 @@ section {
   font-weight: 300;
   clear: both;
 }
-/* line 389, ../sass/general.scss */
+/* line 415, ../sass/general.scss */
 .contact h4 {
   font-size: 16px;
   padding: 16px 0;
