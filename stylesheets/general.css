@@ -66,7 +66,7 @@ h2, h4 {
 }
 
 /* line 68, ../sass/general.scss */
-.service h1, .project h1, .team h1, .contact h1 {
+.about h1, .service h1, .project h1, .team h1, .contact h1 {
   width: 180px;
   margin-top: 24px;
   padding: 0;
@@ -76,16 +76,16 @@ h2, h4 {
   text-align: center;
 }
 /* line 77, ../sass/general.scss */
-.service h2, .project h2, .team h2, .contact h2 {
+.about h2, .service h2, .project h2, .team h2, .contact h2 {
   font-size: 28px;
-  margin: 20px auto 30px;
+  margin: 20px auto 30px auto;
   text-align: center;
   line-height: 120%;
   font-weight: 100;
   font-style: italic;
 }
 /* line 85, ../sass/general.scss */
-.service .page_container, .project .page_container, .team .page_container, .contact .page_container {
+.about .page_container, .service .page_container, .project .page_container, .team .page_container, .contact .page_container {
   margin: 0 auto;
   max-width: 960px;
 }
@@ -180,23 +180,56 @@ section {
   width: 9999px;
 }
 
-/* line 170, ../sass/general.scss */
+/* line 171, ../sass/general.scss */
+.about {
+  background-image: url(../images/public/grid.png);
+  background-color: #fafafa;
+}
+/* line 175, ../sass/general.scss */
+.about .page_container h2 {
+  color: black;
+  width: 100%;
+  max-width: 680px;
+  margin: 20px auto 0 auto;
+}
+/* line 181, ../sass/general.scss */
+.about .page_container h3 {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 300;
+}
+/* line 186, ../sass/general.scss */
+.about .page_container .job {
+  height: 420px;
+  width: 620px;
+  margin: 0 20px 0 10px;
+  padding: 10px 0;
+}
+/* line 194, ../sass/general.scss */
+.about .page_container .client {
+  float: left;
+  height: 420px;
+  width: 300px;
+  padding: 10px 0;
+}
+
+/* line 205, ../sass/general.scss */
 .service {
   background-color: #fafafa;
 }
-/* line 173, ../sass/general.scss */
+/* line 208, ../sass/general.scss */
 .service .page_container h2 {
   color: black;
   width: 100%;
   max-width: 680px;
 }
-/* line 178, ../sass/general.scss */
+/* line 213, ../sass/general.scss */
 .service .page_container h3 {
   text-align: center;
   font-size: 32px;
   font-weight: 300;
 }
-/* line 183, ../sass/general.scss */
+/* line 218, ../sass/general.scss */
 .service .page_container .solution {
   float: left;
   height: 420px;
@@ -205,7 +238,7 @@ section {
   margin: 0 10px;
   padding: 10px 0;
 }
-/* line 190, ../sass/general.scss */
+/* line 225, ../sass/general.scss */
 .service .page_container .solution:hover {
   background-color: rgba(255, 201, 11, 0.6);
   -webkit-transition: all .45s ease;
@@ -214,7 +247,7 @@ section {
   -o-transition: all .45s ease;
   transition: all .45s ease;
 }
-/* line 198, ../sass/general.scss */
+/* line 233, ../sass/general.scss */
 .service .page_container .solution .app {
   background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
@@ -223,7 +256,7 @@ section {
   width: 80px;
   margin: 0 auto;
 }
-/* line 205, ../sass/general.scss */
+/* line 240, ../sass/general.scss */
 .service .page_container .solution .app:hover {
   background-position: center;
   width: 300px;
@@ -233,7 +266,7 @@ section {
   -o-transition: all .95s ease;
   transition: all .95s ease;
 }
-/* line 215, ../sass/general.scss */
+/* line 250, ../sass/general.scss */
 .service .page_container .solution .dev {
   background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
@@ -241,11 +274,11 @@ section {
   height: 160px;
   width: 100%;
 }
-/* line 221, ../sass/general.scss */
+/* line 256, ../sass/general.scss */
 .service .page_container .solution .dev:hover {
   background-image: url(../images/service/dev_light.png);
 }
-/* line 225, ../sass/general.scss */
+/* line 260, ../sass/general.scss */
 .service .page_container .solution .web {
   background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
@@ -253,7 +286,7 @@ section {
   height: 160px;
   width: 100%;
 }
-/* line 231, ../sass/general.scss */
+/* line 266, ../sass/general.scss */
 .service .page_container .solution .web:hover {
   background-image: url(../images/service/responsive.png);
   background-position: bottom;
@@ -264,7 +297,7 @@ section {
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
-/* line 242, ../sass/general.scss */
+/* line 277, ../sass/general.scss */
 .service .page_container .solution ul li {
   font-weight: 300;
   line-height: 1.8;
@@ -274,20 +307,20 @@ section {
   font-size: 18px;
 }
 
-/* line 253, ../sass/general.scss */
+/* line 288, ../sass/general.scss */
 .project {
   background-color: #111111;
 }
-/* line 255, ../sass/general.scss */
+/* line 290, ../sass/general.scss */
 .project h1, .project h2 {
   color: white;
 }
-/* line 258, ../sass/general.scss */
+/* line 293, ../sass/general.scss */
 .project h2 {
   width: 100%;
   max-width: 580px;
 }
-/* line 263, ../sass/general.scss */
+/* line 298, ../sass/general.scss */
 .project .page_container .work {
   height: 220px;
   width: 30%;
@@ -297,7 +330,7 @@ section {
   overflow: hidden;
   position: relative;
 }
-/* line 271, ../sass/general.scss */
+/* line 306, ../sass/general.scss */
 .project .page_container .work img {
   height: 220px;
   width: 100%;
@@ -306,7 +339,7 @@ section {
   bottom: 0;
   left: 0;
 }
-/* line 279, ../sass/general.scss */
+/* line 314, ../sass/general.scss */
 .project .page_container .work .info {
   height: 220px;
   width: 300px;
@@ -316,7 +349,7 @@ section {
   left: 0;
   opacity: 0;
 }
-/* line 287, ../sass/general.scss */
+/* line 322, ../sass/general.scss */
 .project .page_container .work .info:hover {
   display: block;
   opacity: 1;
@@ -330,18 +363,18 @@ section {
   transition: all .35s ease;
 }
 
-/* line 306, ../sass/general.scss */
+/* line 341, ../sass/general.scss */
 .team .page_container h1, .team .page_container h2, .team .page_container h3, .team .page_container h4 {
   color: black;
 }
-/* line 309, ../sass/general.scss */
+/* line 344, ../sass/general.scss */
 .team .page_container h3 {
   margin: 10px auto;
   font-weight: 300;
   font-size: 24px;
   text-align: center;
 }
-/* line 315, ../sass/general.scss */
+/* line 350, ../sass/general.scss */
 .team .page_container h4 {
   font-weight: 300;
   font-size: 14px;
@@ -349,7 +382,7 @@ section {
   margin: 0;
   padding: 0;
 }
-/* line 322, ../sass/general.scss */
+/* line 357, ../sass/general.scss */
 .team .page_container .fontecher {
   max-width: 280px;
   height: 256px;
@@ -357,7 +390,7 @@ section {
   margin: 10px;
   float: left;
 }
-/* line 330, ../sass/general.scss */
+/* line 365, ../sass/general.scss */
 .team .page_container .fontecher .hello {
   height: 60px;
   width: 60px;
@@ -370,11 +403,11 @@ section {
   background-size: cover;
   position: relative;
 }
-/* line 341, ../sass/general.scss */
+/* line 376, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover {
   background-image: url(../images/team/team2.jpg);
 }
-/* line 345, ../sass/general.scss */
+/* line 380, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail {
   background-image: url(../images/team/gmail.png);
   display: none;
@@ -382,11 +415,11 @@ section {
   bottom: -3px;
   left: -4px;
 }
-/* line 351, ../sass/general.scss */
+/* line 386, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail:hover {
   background-image: url(../images/team/gmail_go.png);
 }
-/* line 356, ../sass/general.scss */
+/* line 391, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin {
   background-image: url(../images/team/linkedin.png);
   display: none;
@@ -394,11 +427,11 @@ section {
   bottom: -3px;
   right: -3px;
 }
-/* line 362, ../sass/general.scss */
+/* line 397, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin:hover {
   background-image: url(../images/team/linkedin_go.png);
 }
-/* line 367, ../sass/general.scss */
+/* line 402, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble {
   background-image: url(../images/team/dribble.png);
   display: none;
@@ -406,11 +439,11 @@ section {
   top: -3px;
   right: -3px;
 }
-/* line 373, ../sass/general.scss */
+/* line 408, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble:hover {
   background-image: url(../images/team/dribble_go.png);
 }
-/* line 378, ../sass/general.scss */
+/* line 413, ../sass/general.scss */
 .team .page_container .fontecher .hello #github {
   background-image: url(../images/team/github.png);
   display: none;
@@ -418,33 +451,33 @@ section {
   top: -4px;
   left: -4px;
 }
-/* line 384, ../sass/general.scss */
+/* line 419, ../sass/general.scss */
 .team .page_container .fontecher .hello #github:hover {
   background-image: url(../images/team/github_go.png);
 }
-/* line 390, ../sass/general.scss */
+/* line 425, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
   display: block;
   height: 75px;
   width: 75px;
 }
 
-/* line 402, ../sass/general.scss */
+/* line 437, ../sass/general.scss */
 .contact .page_container .contact_input {
   width: 84%;
   max-width: 786px;
   height: 380px;
   margin: 0 auto 0 90px;
 }
-/* line 407, ../sass/general.scss */
+/* line 442, ../sass/general.scss */
 .contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
-  padding: 8px;
-  margin: 0 0 20px 0;
+  padding: 4px 8px;
+  margin: 0 0 16px 0;
   float: left;
   font-size: 24px;
   font-weight: 100;
 }
-/* line 414, ../sass/general.scss */
+/* line 449, ../sass/general.scss */
 .contact .page_container .contact_input a {
   font-size: 24px;
   padding: 6px 16px;
@@ -458,11 +491,11 @@ section {
   border: none;
   clear: both;
 }
-/* line 429, ../sass/general.scss */
+/* line 464, ../sass/general.scss */
 .contact h2 {
   color: black;
 }
-/* line 432, ../sass/general.scss */
+/* line 467, ../sass/general.scss */
 .contact h3 {
   font-size: 24px;
   text-align: center;
@@ -471,7 +504,7 @@ section {
   font-weight: 300;
   clear: both;
 }
-/* line 440, ../sass/general.scss */
+/* line 475, ../sass/general.scss */
 .contact h4 {
   font-size: 16px;
   padding: 16px 0;
@@ -482,4 +515,22 @@ section {
   position: absolute;
   bottom: 0;
   background-color: rgba(7, 7, 7, 0.1);
+}
+/* line 486, ../sass/general.scss */
+.contact span {
+  color: #ffd10b;
+  position: relative;
+}
+/* line 489, ../sass/general.scss */
+.contact span div {
+  display: none;
+}
+/* line 493, ../sass/general.scss */
+.contact span:hover > div {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  display: block;
 }
