@@ -56,41 +56,41 @@ h1, h2 {
 }
 
 /* line 50, ../sass/general.scss */
-h1, h3, h4, ul, li, a, input, textarea {
-  font-family: 'lato', sans-serif;
-}
-
-/* line 53, ../sass/general.scss */
-h2 {
-  font-family: 'Didot', sans-serif;
+h1, h3, ul, li, a, input, textarea {
+  font-family: 'Contrail One', cursive;
 }
 
 /* line 58, ../sass/general.scss */
+h2, h4 {
+  font-family: 'Voces', cursive;
+}
+
+/* line 68, ../sass/general.scss */
 .service h1, .project h1, .team h1, .contact h1 {
   width: 180px;
   margin-top: 24px;
   padding: 0;
   float: left;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 32px;
   text-align: center;
 }
-/* line 67, ../sass/general.scss */
+/* line 77, ../sass/general.scss */
 .service h2, .project h2, .team h2, .contact h2 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 20px auto 30px;
   text-align: center;
   line-height: 120%;
   font-weight: 100;
   font-style: italic;
 }
-/* line 75, ../sass/general.scss */
+/* line 85, ../sass/general.scss */
 .service .page_container, .project .page_container, .team .page_container, .contact .page_container {
   margin: 0 auto;
   max-width: 960px;
 }
 
-/* line 81, ../sass/general.scss */
+/* line 91, ../sass/general.scss */
 .main {
   float: left;
   width: 100%;
@@ -98,16 +98,16 @@ h2 {
   position: relative;
 }
 
-/* line 87, ../sass/general.scss */
+/* line 97, ../sass/general.scss */
 section {
   overflow: hidden;
 }
 
-/* line 93, ../sass/general.scss */
+/* line 103, ../sass/general.scss */
 .hero {
   background-color: #fafafa;
 }
-/* line 95, ../sass/general.scss */
+/* line 105, ../sass/general.scss */
 .hero .connect {
   width: 102%;
   height: 90%;
@@ -115,24 +115,37 @@ section {
   background-color: #fafafa;
   background-size: cover;
 }
-/* line 102, ../sass/general.scss */
+/* line 111, ../sass/general.scss */
+.hero .connect span {
+  background-image: url(../images/public/fontech_logo.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0%;
+  left: 1%;
+  width: 120px;
+  height: 48px;
+  display: block;
+}
+/* line 123, ../sass/general.scss */
 .hero .page_container {
   padding-top: 30%;
   width: auto;
 }
-/* line 106, ../sass/general.scss */
+/* line 127, ../sass/general.scss */
 .hero h1 {
   color: white;
   display: block;
-  width: 700px;
+  width: 640px;
   height: 84px;
   margin: 0 auto;
-  font-size: 72px;
-  font-weight: 300;
+  font-size: 70px;
+  font-weight: 700;
   background-color: rgba(255, 201, 11, 0.8);
   position: relative;
 }
-/* line 116, ../sass/general.scss */
+/* line 137, ../sass/general.scss */
 .hero h1:before {
   height: 84px;
   background-color: rgba(255, 201, 11, 0.8);
@@ -142,22 +155,23 @@ section {
   right: 100%;
   width: 9999px;
 }
-/* line 126, ../sass/general.scss */
+/* line 147, ../sass/general.scss */
 .hero h2 {
   color: white;
   display: block;
-  margin: 20px auto;
-  width: 820px;
-  height: 48px;
+  margin: 10px auto;
+  width: 780px;
+  height: 50px;
   padding: 2px;
-  font-size: 38px;
+  text-align: center;
+  font-size: 34px;
   font-weight: 300;
   background-color: rgba(11, 21, 11, 0.8);
   position: relative;
 }
-/* line 137, ../sass/general.scss */
+/* line 159, ../sass/general.scss */
 .hero h2:after {
-  height: 52px;
+  height: 54px;
   background-color: rgba(11, 21, 11, 0.8);
   content: "";
   position: absolute;
@@ -166,23 +180,23 @@ section {
   width: 9999px;
 }
 
-/* line 148, ../sass/general.scss */
+/* line 170, ../sass/general.scss */
 .service {
   background-color: #fafafa;
 }
-/* line 151, ../sass/general.scss */
+/* line 173, ../sass/general.scss */
 .service .page_container h2 {
   color: black;
   width: 100%;
   max-width: 680px;
 }
-/* line 156, ../sass/general.scss */
+/* line 178, ../sass/general.scss */
 .service .page_container h3 {
   text-align: center;
   font-size: 32px;
   font-weight: 300;
 }
-/* line 161, ../sass/general.scss */
+/* line 183, ../sass/general.scss */
 .service .page_container .solution {
   float: left;
   height: 420px;
@@ -191,7 +205,7 @@ section {
   margin: 0 10px;
   padding: 10px 0;
 }
-/* line 168, ../sass/general.scss */
+/* line 190, ../sass/general.scss */
 .service .page_container .solution:hover {
   background-color: rgba(255, 201, 11, 0.6);
   -webkit-transition: all .45s ease;
@@ -200,7 +214,7 @@ section {
   -o-transition: all .45s ease;
   transition: all .45s ease;
 }
-/* line 176, ../sass/general.scss */
+/* line 198, ../sass/general.scss */
 .service .page_container .solution .app {
   background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
@@ -209,7 +223,7 @@ section {
   width: 80px;
   margin: 0 auto;
 }
-/* line 183, ../sass/general.scss */
+/* line 205, ../sass/general.scss */
 .service .page_container .solution .app:hover {
   background-position: center;
   width: 300px;
@@ -219,7 +233,7 @@ section {
   -o-transition: all .95s ease;
   transition: all .95s ease;
 }
-/* line 193, ../sass/general.scss */
+/* line 215, ../sass/general.scss */
 .service .page_container .solution .dev {
   background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
@@ -227,11 +241,11 @@ section {
   height: 160px;
   width: 100%;
 }
-/* line 199, ../sass/general.scss */
+/* line 221, ../sass/general.scss */
 .service .page_container .solution .dev:hover {
   background-image: url(../images/service/dev_light.png);
 }
-/* line 203, ../sass/general.scss */
+/* line 225, ../sass/general.scss */
 .service .page_container .solution .web {
   background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
@@ -239,7 +253,7 @@ section {
   height: 160px;
   width: 100%;
 }
-/* line 209, ../sass/general.scss */
+/* line 231, ../sass/general.scss */
 .service .page_container .solution .web:hover {
   background-image: url(../images/service/responsive.png);
   background-position: bottom;
@@ -250,7 +264,7 @@ section {
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
-/* line 220, ../sass/general.scss */
+/* line 242, ../sass/general.scss */
 .service .page_container .solution ul li {
   font-weight: 300;
   line-height: 1.8;
@@ -260,20 +274,20 @@ section {
   font-size: 18px;
 }
 
-/* line 231, ../sass/general.scss */
+/* line 253, ../sass/general.scss */
 .project {
   background-color: #111111;
 }
-/* line 233, ../sass/general.scss */
+/* line 255, ../sass/general.scss */
 .project h1, .project h2 {
   color: white;
 }
-/* line 236, ../sass/general.scss */
+/* line 258, ../sass/general.scss */
 .project h2 {
   width: 100%;
   max-width: 580px;
 }
-/* line 241, ../sass/general.scss */
+/* line 263, ../sass/general.scss */
 .project .page_container .work {
   height: 220px;
   width: 30%;
@@ -283,7 +297,7 @@ section {
   overflow: hidden;
   position: relative;
 }
-/* line 249, ../sass/general.scss */
+/* line 271, ../sass/general.scss */
 .project .page_container .work img {
   height: 220px;
   width: 100%;
@@ -292,7 +306,7 @@ section {
   bottom: 0;
   left: 0;
 }
-/* line 257, ../sass/general.scss */
+/* line 279, ../sass/general.scss */
 .project .page_container .work .info {
   height: 220px;
   width: 300px;
@@ -302,7 +316,7 @@ section {
   left: 0;
   opacity: 0;
 }
-/* line 265, ../sass/general.scss */
+/* line 287, ../sass/general.scss */
 .project .page_container .work .info:hover {
   display: block;
   opacity: 1;
@@ -316,42 +330,39 @@ section {
   transition: all .35s ease;
 }
 
-/* line 281, ../sass/general.scss */
-.team {
-  background-image: url(../images/public/pattern.png);
-}
-/* line 284, ../sass/general.scss */
+/* line 306, ../sass/general.scss */
 .team .page_container h1, .team .page_container h2, .team .page_container h3, .team .page_container h4 {
   color: black;
 }
-/* line 287, ../sass/general.scss */
+/* line 309, ../sass/general.scss */
 .team .page_container h3 {
   margin: 10px auto;
   font-weight: 300;
   font-size: 24px;
   text-align: center;
 }
-/* line 293, ../sass/general.scss */
+/* line 315, ../sass/general.scss */
 .team .page_container h4 {
   font-weight: 300;
-  font-size: 18px;
-  text-align: center;
+  font-size: 14px;
+  text-align: left;
   margin: 0;
   padding: 0;
 }
-/* line 300, ../sass/general.scss */
+/* line 322, ../sass/general.scss */
 .team .page_container .fontecher {
-  width: 30%;
-  max-width: 300px;
+  max-width: 280px;
   height: 256px;
+  padding: 0 10px;
   margin: 10px;
   float: left;
 }
-/* line 306, ../sass/general.scss */
+/* line 330, ../sass/general.scss */
 .team .page_container .fontecher .hello {
-  height: 100px;
-  width: 100px;
-  margin: 0 auto;
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  float: left;
   padding: 20px;
   background-image: url(../images/team/team.png);
   background-repeat: no-repeat;
@@ -359,11 +370,11 @@ section {
   background-size: cover;
   position: relative;
 }
-/* line 316, ../sass/general.scss */
+/* line 341, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover {
   background-image: url(../images/team/team2.jpg);
 }
-/* line 320, ../sass/general.scss */
+/* line 345, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail {
   background-image: url(../images/team/gmail.png);
   display: none;
@@ -371,11 +382,11 @@ section {
   bottom: -3px;
   left: -4px;
 }
-/* line 326, ../sass/general.scss */
+/* line 351, ../sass/general.scss */
 .team .page_container .fontecher .hello #gmail:hover {
   background-image: url(../images/team/gmail_go.png);
 }
-/* line 331, ../sass/general.scss */
+/* line 356, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin {
   background-image: url(../images/team/linkedin.png);
   display: none;
@@ -383,11 +394,11 @@ section {
   bottom: -3px;
   right: -3px;
 }
-/* line 337, ../sass/general.scss */
+/* line 362, ../sass/general.scss */
 .team .page_container .fontecher .hello #linkedin:hover {
   background-image: url(../images/team/linkedin_go.png);
 }
-/* line 342, ../sass/general.scss */
+/* line 367, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble {
   background-image: url(../images/team/dribble.png);
   display: none;
@@ -395,11 +406,11 @@ section {
   top: -3px;
   right: -3px;
 }
-/* line 348, ../sass/general.scss */
+/* line 373, ../sass/general.scss */
 .team .page_container .fontecher .hello #dribble:hover {
   background-image: url(../images/team/dribble_go.png);
 }
-/* line 353, ../sass/general.scss */
+/* line 378, ../sass/general.scss */
 .team .page_container .fontecher .hello #github {
   background-image: url(../images/team/github.png);
   display: none;
@@ -407,25 +418,25 @@ section {
   top: -4px;
   left: -4px;
 }
-/* line 359, ../sass/general.scss */
+/* line 384, ../sass/general.scss */
 .team .page_container .fontecher .hello #github:hover {
   background-image: url(../images/team/github_go.png);
 }
-/* line 365, ../sass/general.scss */
+/* line 390, ../sass/general.scss */
 .team .page_container .fontecher .hello:hover > #gmail, .team .page_container .fontecher .hello:hover #linkedin, .team .page_container .fontecher .hello:hover #github, .team .page_container .fontecher .hello:hover #dribble {
   display: block;
   height: 75px;
   width: 75px;
 }
 
-/* line 377, ../sass/general.scss */
+/* line 402, ../sass/general.scss */
 .contact .page_container .contact_input {
   width: 84%;
   max-width: 786px;
   height: 380px;
   margin: 0 auto 0 90px;
 }
-/* line 382, ../sass/general.scss */
+/* line 407, ../sass/general.scss */
 .contact .page_container .contact_input input, .contact .page_container .contact_input textarea {
   padding: 8px;
   margin: 0 0 20px 0;
@@ -433,7 +444,7 @@ section {
   font-size: 24px;
   font-weight: 100;
 }
-/* line 389, ../sass/general.scss */
+/* line 414, ../sass/general.scss */
 .contact .page_container .contact_input a {
   font-size: 24px;
   padding: 6px 16px;
@@ -447,11 +458,11 @@ section {
   border: none;
   clear: both;
 }
-/* line 404, ../sass/general.scss */
+/* line 429, ../sass/general.scss */
 .contact h2 {
   color: black;
 }
-/* line 407, ../sass/general.scss */
+/* line 432, ../sass/general.scss */
 .contact h3 {
   font-size: 24px;
   text-align: center;
@@ -460,7 +471,7 @@ section {
   font-weight: 300;
   clear: both;
 }
-/* line 415, ../sass/general.scss */
+/* line 440, ../sass/general.scss */
 .contact h4 {
   font-size: 16px;
   padding: 16px 0;

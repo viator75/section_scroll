@@ -252,37 +252,7 @@
   position: relative;
 }
 
-/* line 231, ../sass/disable_general.scss */
-a {
-  text-decoration: none;
-}
-
-/* line 235, ../sass/disable_general.scss */
-h1, h2 {
-  margin: 0;
-  bottom: 0;
-  display: block;
-}
-
-/* line 240, ../sass/disable_general.scss */
-h1, h3, h4, a, input, textarea {
-  font-family: 'lato', sans-serif;
-}
-
-/* line 243, ../sass/disable_general.scss */
-h2 {
-  font-family: 'Didot', sans-serif;
-}
-
-/* line 249, ../sass/disable_general.scss */
-.main {
-  float: left;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-}
-
-/* line 268, ../sass/disable_general.scss */
+/* line 242, ../sass/disable_general.scss */
 body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

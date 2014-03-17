@@ -5,22 +5,26 @@
 	<title>Fontech</title>
 	<meta name="title" content="Fontech">
 	<meta name="description" content="Fontech Official Website" />
-	<!-- <link rel="image_src" href="/images/notify_better_image.png" /> -->
-
-	<!-- <meta content="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" property="og:url" /> -->
-	<!-- <meta content="http://www.thepetedesign.com/images/onepage_scroll_image.png" property="og:image" /> -->
-	<!-- <link rel="shortcut icon" id="favicon" href="favicon.png">  -->
 	<meta name="author" content="Peter Tung">
-	<!-- <link rel="canonical" href="http://www.thepetedesign.com/demos/onepage_scroll_demo.html" /> -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
   <link href='stylesheets/onepage-scroll.css' rel='stylesheet' type='text/css'>
   <link href='stylesheets/general.css' rel='stylesheet' type='text/css'>
   <link href='stylesheets/disable_general.css' rel='stylesheet' type='text/css'>
   <link href='stylesheets/animate.css' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  
+  <link href='stylesheets/fancybox/fancybox.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/fancybox/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="stylesheets/fancybox/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+  
+  <script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
+  <script type="text/javascript" src="js/jquery.fancybox-thumbs.js"></script>
 
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Voces|Contrail+One' rel='stylesheet' type='text/css'>
 	<script>
 	  $(document).ready(function(){
       $(".main").onepage_scroll({
@@ -29,6 +33,11 @@
       });
 		});
 	</script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".fancybox").fancybox();
+    });
+  </script>
 
 </head>
 <body>
@@ -37,14 +46,52 @@
 	    
       <section class="hero">
         <div class="connect">
+          <span></span>
           <div class="page_container">
-            <h1 class="animated slideInLeft">We are Fond of Tech. </h1>
+            <h1 class="animated slideInLeft">We are Fond of Tech.</h1>
             <h2 class="animated slideInRight">We focus on mobile/ web/ digital technology.</h2>
           </div>
-          <!-- <img src="/images/hero/scroll.png"> -->
         </div>
       </section>
-	    
+
+      <section class="service">
+        <div class="page_container">
+          <div class="title"><span class="line black"></span><h1>About</h1><span class="line black"></span></div>
+          <h2>“We are fond of tech.”</h2>
+          <div class="solution">
+            <div class="app"></div>
+            <h3>Our client</h3>
+            <ul>
+              <li>- App UX/ UI design</li>
+              <li>- Android/ iOS apps</li>
+              <li>National chenchi University</li>
+            </ul>
+          </div>
+          <div class="solution">
+            <div class="web"></div>
+            <h3>Technique</h3>
+              <ul>
+                <li>- Responsive Web Design</li>
+                <li>- Landing pages</li>
+                <li>- E-newsletters</li>
+                <li>- Websites</li>
+              </ul>
+          </div>
+          <div class="solution">
+            <div class="dev"></div>
+            <h3>Our partner</h3>
+            <ul>
+              <li>Smig creative</li>
+              <li>Spreeed</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          learn more about our design process.
+        </div>
+      </section>
+
+
 	    <section class="service">
 	      <div class="page_container">
           <div class="title"><span class="line black"></span><h1>service</h1><span class="line black"></span></div>
@@ -85,43 +132,58 @@
 	      <div class="page_container">
           <div class="title"><span class="line white"></span><h1>Projects</h1><span class="line white"></span></div>
           <h2>“We design with three perspectives in mind: the designer’s, the client’s, and the user’s.”</h2>
+
           <div class="work">
             <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
+            <a href="#work1" class="fancybox" title=""><div class="info">
             </div></a>
+            <div id="work1" style="display: none;">
+              <h1>Project No.1</h1>
+              <h2>We design with three perspectives in mind: the designer’s, the client’s, and the user’s.We design with three perspectives in mind: the designer’s, the client’s, and the user’s.We design with three perspectives in mind: the designer’s, the client’s, and the user’s.</h2>
+              <img src="/images/hero/robot.png">
+            </div>
           </div>
 
           <div class="work">
             <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
+            <a href="#work2" class="fancybox" title=""><div class="info">
             </div></a>
+            <div id="work2" style="display: none;">aaaaa</div>
+          </div>
+
+          <div class="work">
+            <img src="images/works.png" alt="works">
+            <a href="#work3" class="fancybox" title=""><div class="info">
+            </div></a>
+            <div id="work3" style="display: none;">aaaaa</div>
           </div>
           <div class="work">
             <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
+            <a href="#work4" class="fancybox" title=""><div class="info">
             </div></a>
+            <div id="work4" style="display: none;">aaaaa</div>
           </div>
           <div class="work">
             <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
+            <a href="#work5" class="fancybox" title=""><div class="info">
             </div></a>
+            <div id="work5" style="display: none;">aaaaa</div>
           </div>
           <div class="work">
             <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
+            <a href="#work6" class="fancybox" title=""><div class="info">
             </div></a>
+            <div id="work6" style="display: none;">aaaaa</div>
           </div>
-          <div class="work">
-            <img src="images/works.png" alt="works">
-            <a href="#" title=""><div class="info">
-            </div></a>
-          </div>
+
   	    </div>
       </section>
+
       <section class="team">
         <div class="page_container">
           <div class="title"><span class="line black"></span><h1>Team</h1><span class="line black"></span></div>
           <h2>“Creative, innovative and diverse.”</h2>
+
           <div class="fontecher">
             <div class="hello">
               <div alt="" id="github" class="animated rotateInUpRight"></div>
@@ -129,11 +191,10 @@
               <div alt="" id="gmail" class="animated rotateInUpRight" ></div>
               <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
             </div>
-            <h3>Peter</h3>
-            <h4>I'm project manager of Fontech.</h4>
-            <h4>I love CSS.</h4>
-            <h4>Folk me on github.</h4>
+            <h3>Robert</h3>
+            <h4>Robert, who is a turtle freak, has been managing software teams and designing products for the past few years. A computer science major back in college and graduate school, he is also a skilled developer who cranks out code for Fontech.</h4>
           </div>
+
           <div class="fontecher">
             <div class="hello">
               <div alt="" id="github" class="animated bounceIn"></div>
@@ -142,10 +203,10 @@
               <div alt="" id="linkedin" class="animated bounceIn"></div>
             </div>
             <h3>Robert</h3>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-          </div>          <div class="fontecher">
+            <h4>Robert, who is a turtle freak, has been managing software teams and designing products for the past few years. A computer science major back in college and graduate school, he is also a skilled developer who cranks out code for Fontech.</h4>
+          </div>
+
+          <div class="fontecher">
             <div class="hello">
               <div alt="" id="github" class="animated rotateInDownRight"></div>
               <div alt="" id="dribble" class="animated rotateInDownRight"></div>
@@ -153,32 +214,22 @@
               <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
             </div>
             <h3>Jason</h3>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-          </div>          <div class="fontecher">
+            <h4>Robert, who is a turtle freak, has been managing software teams and designing products for the past few years. A computer science major back in college and graduate school, he is also a skilled developer who cranks out code for Fontech.</h4>
+          </div>          
+          
+
+          <div class="fontecher">
             <div class="hello">
               <div alt="" id="github" class="animated rotateInDownRight"></div>
               <div alt="" id="dribble" class="animated rotateInDownRight"></div>
               <div alt="" id="gmail" class="animated rotateInUpRight" ></div>
               <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
             </div>
-            <h3>steven</h3>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-          </div>          <div class="fontecher">
-            <div class="hello">
-              <div alt="" id="github" class="animated rotateInDownRight"></div>
-              <div alt="" id="dribble" class="animated rotateInDownRight"></div>
-              <div alt="" id="gmail" class="animated rotateInUpRight" ></div>
-              <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
-            </div>
-            <h3>Sunny</h3>
-            <h4>I'm </h4>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
+            <h3>Steven</h3>
+            <h4>Robert, who is a turtle freak, has been managing software teams and designing products for the past few years. A computer science major back in college and graduate school, he is also a skilled developer who cranks out code for Fontech.</h4>
           </div>
+
+
           <div class="fontecher">
             <div class="hello">
               <div alt="" id="github" class="animated rotateInDownRight"></div>
@@ -187,9 +238,19 @@
               <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
             </div>
             <h3>Kelly</h3>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
-            <h4>I'm geek of Fontech.</h4>
+            <h4>Kelly is a energetic designer with monomania of every each pixals. Tapping into experience in graphic design and UX design, she could make products awesome. She’s also a lifestyle hacker and aglutton for desserts.</h4>
+          </div>
+          
+
+          <div class="fontecher">
+            <div class="hello">
+              <div alt="" id="github" class="animated rotateInDownRight"></div>
+              <div alt="" id="dribble" class="animated rotateInDownRight"></div>
+              <div alt="" id="gmail" class="animated rotateInUpRight" ></div>
+              <div alt="" id="linkedin" class="animated rotateInUpLeft"></div>
+            </div>
+            <h3>Kelly</h3>
+            <h4>Robert, who is a turtle freak, has been managing software teams and designing products for the past few years. A computer science major back in college and graduate school, he is also a skilled developer who cranks out code for Fontech.</h4>
           </div>
         </div>
       </section>
@@ -227,5 +288,6 @@
     </div>
   </div>
   <!-- Wrapper ends here -->
+
 </body>
 </html>

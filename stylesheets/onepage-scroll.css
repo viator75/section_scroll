@@ -50,7 +50,7 @@ body, .onepage-wrapper, html {
 }
 
 .viewing-page-4 .back{
-  top: 93%;
+  top: 94%;
   right: 0px;
   height: 40px;
   width: 50px;
@@ -58,11 +58,12 @@ body, .onepage-wrapper, html {
 }
 
 .viewing-page-5 .back{
-  top: 3%;
-  right: 0px;
+  top: 80%;
+  right: 50%;
   height: 40px;
   width: 50px;
-  background-image: url(../images/public/fontech_logo_f_02.png);
+  opacity: 0;
+  background-image: url(../images/public/fontech_logo_h_02.png);
 }
 
 
