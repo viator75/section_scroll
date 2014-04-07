@@ -56,12 +56,12 @@
 			padding : 15,
 			margin  : 20,
 
-			width     : 800,
+			width     : 780,
 			height    : 600,
 			minWidth  : 100,
 			minHeight : 100,
-			maxWidth  : 9999,
-			maxHeight : 9999,
+			maxWidth  : 720,
+			maxHeight : 600,
 			pixelRatio: 1, // Set to 2 for retina display support
 
 			autoSize   : true,
@@ -75,7 +75,7 @@
 			topRatio    : 0.5,
 			leftRatio   : 0.5,
 
-			scrolling : 'auto', // 'auto', 'yes' or 'no'
+			scrolling : 'yes', // 'auto', 'yes' or 'no'
 			wrapCSS   : '',
 
 			arrows     : true,
@@ -2018,3 +2018,12 @@
 	});
 
 }(window, document, jQuery));
+
+
+
+$.fancybox({
+'onStart': function(){
+$("#fancybox-overlay").css({"position":"fixed"});
+
+                }
+            });

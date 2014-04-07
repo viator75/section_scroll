@@ -5,17 +5,17 @@
 }
 /* line 6, ../sass/disable_general.scss */
 .disabled-onepage-scroll .title {
-  width: 90%;
+  width: 97%;
   padding: 0;
   height: 60px;
-  margin: 0 5%;
+  margin: 0 1.5%;
 }
 /* line 11, ../sass/disable_general.scss */
 .disabled-onepage-scroll .title .line {
   width: 35%;
   max-width: 300px;
   height: 5px;
-  margin: 42px 0 0 0;
+  margin: 36px 0 0 0;
   float: left;
 }
 /* line 18, ../sass/disable_general.scss */
@@ -27,50 +27,67 @@
   background-image: url(../images/public/line_white.png);
 }
 /* line 26, ../sass/disable_general.scss */
-.disabled-onepage-scroll .service h1, .disabled-onepage-scroll .project h1, .disabled-onepage-scroll .team h1, .disabled-onepage-scroll .contact h1 {
+.disabled-onepage-scroll .about h1, .disabled-onepage-scroll .service h1, .disabled-onepage-scroll .project h1, .disabled-onepage-scroll .team h1, .disabled-onepage-scroll .contact h1 {
   width: 30%;
   margin-top: 24px;
   padding: 0;
   float: left;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
 }
 /* line 35, ../sass/disable_general.scss */
-.disabled-onepage-scroll .service h2, .disabled-onepage-scroll .project h2, .disabled-onepage-scroll .team h2, .disabled-onepage-scroll .contact h2 {
-  font-size: 30px;
+.disabled-onepage-scroll .about h2, .disabled-onepage-scroll .service h2, .disabled-onepage-scroll .project h2, .disabled-onepage-scroll .team h2, .disabled-onepage-scroll .contact h2 {
+  font-size: 24px;
+  width: 97%;
+  padding: 0 1.5%;
   margin: 20px auto 30px;
   text-align: center;
   line-height: 120%;
   font-weight: 100;
   font-style: italic;
 }
-/* line 43, ../sass/disable_general.scss */
-.disabled-onepage-scroll .service .page_container, .disabled-onepage-scroll .project .page_container, .disabled-onepage-scroll .team .page_container, .disabled-onepage-scroll .contact .page_container {
+/* line 45, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about .page_container, .disabled-onepage-scroll .service .page_container, .disabled-onepage-scroll .project .page_container, .disabled-onepage-scroll .team .page_container, .disabled-onepage-scroll .contact .page_container {
   margin: 0 auto;
   max-width: 960px;
 }
-/* line 48, ../sass/disable_general.scss */
+/* line 50, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero {
+  font-size: 36px;
   padding-top: 0;
   height: auto;
 }
-/* line 51, ../sass/disable_general.scss */
+/* line 54, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero .connect {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 420px;
+  height: 376px;
   background-image: url(../images/hero/robot.png);
   background-color: #191919;
   background-size: cover;
+  background-position: center;
 }
-/* line 60, ../sass/disable_general.scss */
+/* line 64, ../sass/disable_general.scss */
+.disabled-onepage-scroll .hero span {
+  background-image: url(../images/public/fontech_logo.png);
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0%;
+  left: 1%;
+  width: 120px;
+  height: 48px;
+  display: block;
+}
+/* line 76, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero .page_container {
   padding-top: 30%;
   width: 100%;
 }
-/* line 64, ../sass/disable_general.scss */
+/* line 80, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero h1 {
   color: white;
   display: block;
@@ -78,12 +95,12 @@
   width: auto;
   height: auto;
   margin: 0 auto;
-  font-size: 3em;
+  font-size: 1em;
   font-weight: 300;
   background-color: rgba(255, 201, 11, 0.8);
   position: relative;
 }
-/* line 75, ../sass/disable_general.scss */
+/* line 91, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero h1:before {
   height: 64px;
   background-color: rgba(255, 201, 11, 0.8);
@@ -93,7 +110,7 @@
   right: 100%;
   width: 9999px;
 }
-/* line 85, ../sass/disable_general.scss */
+/* line 101, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero h2 {
   color: white;
   display: block;
@@ -101,23 +118,56 @@
   width: auto;
   height: auto;
   padding: 2px;
-  font-size: 32px;
+  font-size: 0.6em;
   font-weight: 300;
   text-align: center;
   background-color: rgba(11, 21, 11, 0.8);
   position: relative;
 }
-/* line 97, ../sass/disable_general.scss */
+/* line 113, ../sass/disable_general.scss */
 .disabled-onepage-scroll .hero h2:after {
   display: none;
 }
-/* line 102, ../sass/disable_general.scss */
+/* line 118, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about {
+  height: auto;
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+/* line 123, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about .page_container h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+/* line 129, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about .page_container p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px;
+}
+/* line 135, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about .page_container .job {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+/* line 141, ../sass/disable_general.scss */
+.disabled-onepage-scroll .about .page_container .client {
+  float: left;
+  height: 420px;
+  width: 300px;
+  padding: 10px 0;
+}
+/* line 151, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service {
   height: auto;
   padding-bottom: 40px;
   background-color: #fafafa;
 }
-/* line 107, ../sass/disable_general.scss */
+/* line 156, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container h3 {
   float: left;
   height: auto;
@@ -126,16 +176,16 @@
   font-size: 24px;
   text-align: left;
 }
-/* line 117, ../sass/disable_general.scss */
+/* line 166, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution {
   float: none;
-  height: 180px;
-  width: 100%;
+  height: 160px;
+  width: 95%;
   max-width: 420px;
   margin: 40px auto 20px auto;
-  padding: 10px;
+  padding-left: 5%;
 }
-/* line 124, ../sass/disable_general.scss */
+/* line 173, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution:hover {
   background-color: rgba(255, 201, 11, 0.6);
   -webkit-transition: all .45s ease;
@@ -144,18 +194,18 @@
   -o-transition: all .45s ease;
   transition: all .45s ease;
 }
-/* line 132, ../sass/disable_general.scss */
+/* line 181, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .app {
   background-image: url(../images/service/mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 160px;
-  width: 140px;
+  width: 30%;
   margin: 0 auto;
   float: left;
 }
-/* line 141, ../sass/disable_general.scss */
+/* line 190, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .app:hover {
   background-position: center;
   -webkit-transition: all .95s ease;
@@ -164,31 +214,31 @@
   -o-transition: all .95s ease;
   transition: all .95s ease;
 }
-/* line 150, ../sass/disable_general.scss */
+/* line 199, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .dev {
   background-image: url(../images/service/dev.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 160px;
-  width: 140px;
+  width: 30%;
   float: left;
 }
-/* line 158, ../sass/disable_general.scss */
+/* line 207, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .dev:hover {
   background-image: url(../images/service/dev_light.png);
 }
-/* line 162, ../sass/disable_general.scss */
+/* line 211, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .web {
   background-image: url(../images/service/web.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   height: 160px;
-  width: 140px;
+  width: 30%;
   float: left;
 }
-/* line 170, ../sass/disable_general.scss */
+/* line 219, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution .web:hover {
   background-image: url(../images/service/responsive.png);
   background-position: bottom;
@@ -199,51 +249,104 @@
   -o-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
-/* line 181, ../sass/disable_general.scss */
+/* line 230, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution ul li {
   font-weight: 300;
   line-height: 1.8;
   text-align: left;
   list-style-type: none;
-  font-size: 18px;
+  font-size: 16px;
 }
-/* line 188, ../sass/disable_general.scss */
+/* line 237, ../sass/disable_general.scss */
 .disabled-onepage-scroll .service .page_container .solution ul {
+  width: 60%;
   float: left;
   padding-left: 12px;
 }
-/* line 195, ../sass/disable_general.scss */
+/* line 245, ../sass/disable_general.scss */
 .disabled-onepage-scroll .team {
   display: none;
 }
-/* line 198, ../sass/disable_general.scss */
+/* line 248, ../sass/disable_general.scss */
 .disabled-onepage-scroll .project {
   display: none;
 }
-/* line 201, ../sass/disable_general.scss */
+/* line 251, ../sass/disable_general.scss */
 .disabled-onepage-scroll .contact {
   clear: both;
+  height: 320px;
   background-color: rgba(225, 225, 220, 0.5);
 }
-/* line 205, ../sass/disable_general.scss */
-.disabled-onepage-scroll .contact {
-  clear: both;
-  height: 720px;
-}
-/* line 208, ../sass/disable_general.scss */
+/* line 255, ../sass/disable_general.scss */
 .disabled-onepage-scroll .contact .page_container {
   clear: both;
 }
-/* line 211, ../sass/disable_general.scss */
+/* line 257, ../sass/disable_general.scss */
 .disabled-onepage-scroll .contact .page_container .contact_input {
   display: none;
+  width: 97%;
+  margin: 0 1.5%;
+  max-width: 786px;
+  height: 380px;
+  margin: 0 auto 0 90px;
 }
-/* line 216, ../sass/disable_general.scss */
+/* line 264, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact .page_container .contact_input input, .disabled-onepage-scroll .contact .page_container .contact_input textarea {
+  display: none;
+}
+/* line 267, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact .page_container .contact_input a {
+  display: none;
+}
+/* line 282, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact h2 {
+  color: #545454;
+}
+/* line 285, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact h3 {
+  font-size: 18px;
+  text-align: center;
+  width: 97%;
+  padding: 0 1.5%;
+  font-weight: 300;
+  clear: both;
+}
+/* line 293, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact h4 {
+  font-size: 16px;
+  padding: 16px 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(7, 7, 7, 0.1);
+}
+/* line 304, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact span {
+  color: #545454;
+  position: relative;
+}
+/* line 307, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact span div {
+  display: none;
+}
+/* line 311, ../sass/disable_general.scss */
+.disabled-onepage-scroll .contact span:hover > div {
+  display: none;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #545454;
+  position: absolute;
+}
+/* line 322, ../sass/disable_general.scss */
 .disabled-onepage-scroll .back {
   display: none;
 }
 
-/* line 221, ../sass/disable_general.scss */
+/* line 327, ../sass/disable_general.scss */
 .wrapper {
   height: 100% !important;
   /*查*/
@@ -252,7 +355,7 @@
   position: relative;
 }
 
-/* line 242, ../sass/disable_general.scss */
+/* line 348, ../sass/disable_general.scss */
 body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

@@ -24,32 +24,42 @@ body, .onepage-wrapper, html {
 }
 
 .viewing-page-1 .back{
-  top: 94%;
-  right: 45%;
+  top: 92%;
+  right: 48%;
   height: 40px;
   width: 40px;
   background-image: url(../images/hero/scroll.png);
-  opacity: 0.3;
-
+  opacity: 0.8;
 }
 
 .viewing-page-2 .back{
-  top: 94%;
-  right: 0px;
+  top: 92%;
+  right: 48%;
   height: 40px;
-  width: 50px;
-  background-image: url(../images/public/fontech_logo_f_03.png);
+  width: 40px;
+  background-image: url(../images/hero/scroll.png);
+  opacity: 0.6;
 }
 
 .viewing-page-3 .back{
-  top: 94%;
-  right: 0px;
+  top: 92%;
+  right: 48%;
   height: 40px;
-  width: 50px;
-  background-image: url(../images/public/fontech_logo_h_01.png);
+  width: 40px;
+  background-image: url(../images/hero/scroll.png);
+  opacity: 0.4;
 }
 
 .viewing-page-4 .back{
+  top: 90%;
+  right: 48%;
+  height: 40px;
+  width: 40px;
+  background-image: url(../images/hero/scroll.png);
+  opacity: 0;
+}
+
+.viewing-page-5 .back{
   top: 94%;
   right: 0px;
   height: 40px;
@@ -57,7 +67,7 @@ body, .onepage-wrapper, html {
   background-image: url(../images/public/fontech_logo_h_02.png);
 }
 
-.viewing-page-5 .back{
+.viewing-page-6 .back{
   top: 80%;
   right: 50%;
   height: 40px;
@@ -65,7 +75,6 @@ body, .onepage-wrapper, html {
   opacity: 0;
   background-image: url(../images/public/fontech_logo_h_02.png);
 }
-
 
 .onepage-wrapper {
   width: 100%;
